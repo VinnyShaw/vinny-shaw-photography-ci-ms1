@@ -1,45 +1,54 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Vinny Shaw Photography - CI - MS1
 
-Welcome USER_NAME,
+Welcome to my Code Institute MS1 Project.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The website is designed to be the online hub for the business **Vinny Shaw Photography** to showcase their work, promote the services they offer and provide information for new and existing clients to easily contact them.
+ 
+## UX
 
-## Gitpod Reminders
+- Wireframes
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+1. About section
+2. Gallery section
+3. Services section
+4. Contact section
+5. Social media links in footer
+6. Contact link in footer
+ 
+### Existing Features
 
-A blue button should appear to click: *Make Public*,
+- About - allows users to learn about Vinny Shaw by reading a short biography.
+- Gallery - gives the user an opportunity to browse some previous work examples.
+- Services - provides the user with the types of services offered and the costings.
+- Contact - allows the user to quickly contact the site owner by filling out and submitting  a short form.
+- Social media links - the footer offers direct links to the owners various social media accounts.
+- Contact link - a user wishing to contact the owner, from any point of the site, can simply click the link to take them to the Contact section.  There they will find the site owners contact details and a contact form they can fill out and submit.
 
-Another blue button should appear to click: *Open Browser*.
+### Features Left to Implement
+- Dark/Light theme switching via toggle in header and set by users system preferences.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Technologies Used
 
-A blue button should appear to click: *Make Public*,
+- HTML
+- CSS
+- Bootstrap
+- Font Awesome
+- Google fonts
 
-Another blue button should appear to click: *Open Browser*.
+## Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Deployment
 
-## Updates Since The Instructional Video
+## Credits
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Content
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Media
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Acknowledgements
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

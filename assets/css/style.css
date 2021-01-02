@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/* -------------------- Header */
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+	max-height: 150px;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.vertical{
+    margin-top:50%;
+}
+
+.menucontainer {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.menuitem {
+    width: 75px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.menuitem span {
+    display: block;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* -------------------- Sections */
+
+
+/* -------------------- Footer */
+
+.footer-text {
+	font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+	text-decoration: none;
+}
+
+footer i {
+    color: #fafafa;
+    margin: 0 7px;
+}
+
+

@@ -12,22 +12,21 @@
         <title>Vinny Shaw Photography</title>
     </head>
 
-    <!-- bg-secondary class for testing only -->
-    <body class="bg-secondary">
-        
+    <body>
+    
         <!-- Header -->
-        <!-- bg-info class for testing -->
-        <header class="fixed-top bg-info">
+        <header class="fixed-top">
             <div class="row no-gutters">
                 <!-- Logo -->
-                <div class="logo-container col-sm-4 text-center">
+                <div class="logo logo-container col-sm-4 text-center">
                     <a class="logo text-center" href="#home">V✵S</a>
                 </div>
                     
                 <!-- Navigation -->
-                <div class="col-sm-7">
-                    <ul id="nav" class="list-inline menucontainer text-right">
-                        <li class="col-md-6 list-inline-item menuitem">
+                <!-- look at using d-none d-sm-block for the Home link -->
+                <div class="col-sm-8">
+                    <ul id="nav" class="list-inline menucontainer text-center ">
+                        <li class=" col-md-6 list-inline-item menuitem">
                             <a href="#home"><span>Home</span></a>
                         </li>
                         <li class="col-md-6 list-inline-item menuitem">
@@ -47,45 +46,119 @@
             </div>
         </header>
 
-        <section>
-            <!-- Home -->
+        <!-- Sections -->
 
-            <!-- About -->
+        <!-- Look at using srcset for the backgrounds in all section -->
 
-            <!-- Gallery -->
+        <!-- Home -->
+        <!-- Look at the hovers -->
+        <div id="home" class="home section-container bg-secondary">
+            <img class="bg-img" src="#">
+            <div class="section-text centered landing-title">
+                <a href="#about">
+                    <h1 class="logo-big text-uppercase text-center">VINNY ✵ SHAW</h1>
+                    <h3 class=" logo-big text-uppercase text-center">Photography</h3>
+                </a>
+            </div>
+        </div>
 
-            <!-- Services -->
-
-            <!-- Contact -->
-
-                <!-- Information -->
+        <!-- About -->
+        <div id="about" class="bg-info section-container">
+            <img class="bg-img" src="#">
+            <div class="col col-sm-6 centered section-text">
+                <h1 class="text-uppercase">Vinny</h1>
+                <p>Stuff about me and what I do.<br>Should this text be positioned with row/col?<br>I want it left aligned also.</p>
+            </div>
+        </div>
+        
+        <!-- Gallery -->
+        <div id="gallery" class="row bg-secondary section-container">
+            <img class="bg-img" src="#">
+            <div class="col section-text centered">
+                <h1 class="text-uppercase">Gallery</h1>
+                <p>There will be pics here.</p>
+            </div>
+        </div>
+        
+        <!-- Services -->
+        <div id="services" class="row bg-info section-container">
+            <img class="bg-img" src="#">
+            <div class="col section-text centered">
+                <h1 class="text-uppercase">Services</h1>
+                <p>Portrait. Product. Automotive.</p>
+            </div>
+            
+        </div>
+        
+        <!-- Contact -->
+        <div id="contact" class="row bg-secondary section-container">
+            <img class="bg-img" src="#">
+            <div class="col section-text centered">
+                <h1 class="text-uppercase">Let's Talk</h1>
                 
                 <!-- Form -->
-
-        </section>
+                <form>
+                
+                    <!-- Names -->
+                    <div class="form-row">
+                        <div class="form-group col-sm-6 col-lg-4">
+                            <input type="name" class="form-control form-control-sm" id="first-name" aria-describedby="first name" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6 col-lg-4">
+                            <input type="name" class="form-control form-control-sm" id="last-name" aria-describedby="last name" placeholder="Last Name">
+                        </div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="form-row">
+                        <div class="form-group col-sm-6 col-lg-4">
+                            <input type="email" class="form-control form-control-sm" id="email" aria-describedby="email" placeholder="Email">
+                        </div>
+                    </div>
+                    
+                    <!-- Message -->
+                    <div class="form-row">
+                        <div class="form-group col-sm-6 col-lg-4">
+                            <input type="textarea" class="form-control form-control-sm" id="message" aria-describedby="message" placeholder="Your message...">
+                        </div>
+                    </div>
+                    
+                    <!-- Button -->
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+            
+        </div>
 
         <!-- Footer -->
-        <!-- bg-info class for testing -->
-        <footer class="container-fluid fixed-bottom bg-info">
+        <footer class="container-fluid fixed-bottom">
             <div class="row">
                 <!-- Contact link -->
-                <div class="col-sm-4 text-center">
+                <!-- Check the hover for this -->
+                <div class="contact-link col-sm-4 text-center">
                     <a target="_blank" href="#">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <span class="sr-only">email</span>
                     </a>
-                        <a href="#contact">
-                            <span class="text-uppercase footer-text">Let's talk!</span>
-                        </a>
+                    <a href="#contact">
+                        <span class="text-uppercase footer-text">Let's talk!</span>
+                    </a>
+
                 </div>
 
                 <!-- Copyright -->
                 <div class="col-sm-4 text-center footer-text">
                     <span>&copy VINNY SHAW 2020</span>
                 </div>
-
                 <!-- Social media links -->
-                <div class="col-sm-4 text-center">
+                <div class="social-link col-sm-4 text-center">
                     <ul class="list-inline social-links text-center">
                         <li class="list-inline-item">
                             <a target="_blank" href="#">
@@ -115,7 +188,7 @@
                 </div>
             </div>
         </footer>
-
+ 
     </body>
-
+    
 </html>

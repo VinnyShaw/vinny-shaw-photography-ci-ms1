@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+/* -------------------- Smooth scrolling */
+
+html {
+    scroll-behavior: smooth
+}
+
 body, html {
     height: 100%;
     width: 100%;
@@ -22,6 +28,7 @@ header {
     font-family: 'Work Sans', sans-serif;
     font-size: 50px;
     font-weight: 300;
+    color: #fafafa;
 }
 
 .logo-container a {
@@ -29,16 +36,27 @@ header {
     color: #fafafa;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #fafafa;
+    transition: color .35s ease-in-out;
+    -moz-transition: color .35s ease-in-out;
+    -webkit-transition: color .35s ease-in-out;
+    -o-transition: color .35s ease-in-out;
+}
+
+/* aqua for testing */
+.logo a:hover {
+    color: aqua
+}
+
+
 .list-inline-item:not(:last-child) {
     margin-right: 0;
 }
 
-.vertical{
-    margin-top:50%;
-}
-
 .menucontainer {
-    font-size: 0;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
@@ -49,24 +67,148 @@ header {
 }
 
 .menuitem {
+    /* height:  20px; */
     width: 75px;
     text-align: center;
     padding: 0;
 }
 
 .menuitem a {
-    text-decoration: none;
+    padding: 5px;
     color: #fafafa;
+    text-decoration: none;
+    transition: color .35s ease-in-out;
+    -moz-transition: color .35s ease-in-out;
+    -webkit-transition: color .35s ease-in-out;
+    -o-transition: color .35s ease-in-out;
+}
+
+.menuitem a:hover {
+    color: aqua
 }
 
 .menuitem span {
     display: block;
+    /* width: 100px; */
+    /* padding-top: 40px; */
     font-weight: 300;
     margin: 0;
 }
 
 /* -------------------- Sections */
 
+.section-container {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -------------------- Home title */
+
+.landing-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.landing-title a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fafafa;
+    transition: color .35s ease-in-out;
+    -moz-transition: color .35s ease-in-out;
+    -webkit-transition: color .35s ease-in-out;
+    -o-transition: color .35s ease-in-out;
+}
+
+.landing-title a:hover {
+    color: aqua
+}
+
+.logo-big {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+/* .bg-img {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+/*
+.home {
+	background-image: url("../assets/img/fern-bg-mobile.jpg") alt="fern">
+} */
+
+
+img {
+	height: 100%;
+}
+
+/* .about {
+    background-image: url(/assets/img/vinny-shaw-profile-pic-1.jpg);
+}
+
+.gallery {
+    background-image: url(/assets/img/trees-bg.jpg);
+}
+
+.services {
+    background-image: url(/assets/img/trees-bg.jpg);
+}
+
+.contact {
+    background-image: url(/assets/img/trees-bg.jpg);
+} */
+
+/* -------------------- Sections */
+
+.section-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.section-text 
+h1, 
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: 100%;
+}
+
+
+/* .about-text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+} */
 
 /* -------------------- Footer */
 
@@ -75,7 +217,7 @@ header {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #fafafa;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 footer i {
@@ -83,4 +225,28 @@ footer i {
     margin: 0 7px;
 }
 
+.contact-link a, a i {
+    padding: 5px;
+    color: #fafafa;
+    transition: color .35s ease-in-out;
+    -moz-transition: color .35s ease-in-out;
+    -webkit-transition: color .35s ease-in-out;
+    -o-transition: color .35s ease-in-out;
+}
 
+.contact-link a, a i:hover {
+    color: aqua
+}
+
+.social-links li a i {
+    padding: 5px;
+    color: #fafafa;
+    transition: color .35s ease-in-out;
+    -moz-transition: color .35s ease-in-out;
+    -webkit-transition: color .35s ease-in-out;
+    -o-transition: color .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: aqua
+}

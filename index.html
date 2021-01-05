@@ -26,7 +26,7 @@
                 <!-- look at using d-none d-sm-block for the Home link -->
                 <div class="col-sm-8">
                     <ul id="nav" class="list-inline menucontainer text-center ">
-                        <li class=" col-md-6 list-inline-item menuitem">
+                        <li class="d-none d-sm-inline-block col-md-6 list-inline-item menuitem">
                             <a href="#home"><span>Home</span></a>
                         </li>
                         <li class="col-md-6 list-inline-item menuitem">
@@ -56,8 +56,8 @@
             <img class="bg-img" src="#">
             <div class="section-text centered landing-title">
                 <a href="#about">
-                    <h1 class="logo-big text-uppercase text-center">VINNY ✵ SHAW</h1>
-                    <h3 class=" logo-big text-uppercase text-center">Photography</h3>
+                    <h1 class="text-uppercase text-center">VINNY ✵ SHAW</h1>
+                    <h3 class="text-uppercase text-center">Photography</h3>
                 </a>
             </div>
         </div>
@@ -94,34 +94,33 @@
         <div id="contact" class="row bg-secondary section-container">
             <img class="bg-img" src="#">
             <div class="col section-text centered">
-                <h1 class="text-uppercase">Let's Talk</h1>
+                <h1 class="text-uppercase">Let's Talk!</h1>
                 
                 <!-- Form -->
                 <form>
-                
                     <!-- Names -->
-                    <div class="form-row">
+                    <div class="form-row justify-content-center">
                         <div class="form-group col-sm-6 col-lg-4">
                             <input type="name" class="form-control form-control-sm" id="first-name" aria-describedby="first name" placeholder="First Name">
                         </div>
                     </div>
-                    <div class="form-row">
+                    <div class="form-row justify-content-center">
                         <div class="form-group col-sm-6 col-lg-4">
                             <input type="name" class="form-control form-control-sm" id="last-name" aria-describedby="last name" placeholder="Last Name">
                         </div>
                     </div>
                     
                     <!-- Email -->
-                    <div class="form-row">
+                    <div class="form-row justify-content-center">
                         <div class="form-group col-sm-6 col-lg-4">
                             <input type="email" class="form-control form-control-sm" id="email" aria-describedby="email" placeholder="Email">
                         </div>
                     </div>
                     
                     <!-- Message -->
-                    <div class="form-row">
+                    <div class="form-row justify-content-center">
                         <div class="form-group col-sm-6 col-lg-4">
-                            <input type="textarea" class="form-control form-control-sm" id="message" aria-describedby="message" placeholder="Your message...">
+                            <textarea rows="5" class="form-control form-control-sm" id="message" aria-describedby="message" placeholder="Your message..."></textarea>
                         </div>
                     </div>
                     
@@ -141,16 +140,12 @@
         <footer class="container-fluid fixed-bottom">
             <div class="row">
                 <!-- Contact link -->
-                <!-- Check the hover for this -->
                 <div class="contact-link col-sm-4 text-center">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <span class="sr-only">email</span>
-                    </a>
                     <a href="#contact">
-                        <span class="text-uppercase footer-text">Let's talk!</span>
+                        <i class="fa fa-envelope" aria-hidden="true">
+                        <span class="talk footer-text">Let's talk!</span></i>
+                        <span class="sr-only">Contact</span>
                     </a>
-
                 </div>
 
                 <!-- Copyright -->

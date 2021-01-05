@@ -121,6 +121,8 @@ header {
     top: 50%;
     width: 100%;
     text-align: center;
+    text-decoration: none;
+
 }
 
 .landing-title a {
@@ -138,10 +140,10 @@ header {
     color: aqua
 }
 
-.logo-big {
+/* .logo-big {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-}
+} */
 
 
 /* .bg-img {
@@ -225,8 +227,8 @@ footer i {
     margin: 0 7px;
 }
 
-.contact-link a, a i {
-    padding: 5px;
+.contact-link a i,
+.talk {
     color: #fafafa;
     transition: color .35s ease-in-out;
     -moz-transition: color .35s ease-in-out;
@@ -234,7 +236,8 @@ footer i {
     -o-transition: color .35s ease-in-out;
 }
 
-.contact-link a, a i:hover {
+.contact-link a i:hover,
+.talk:hover {
     color: aqua
 }
 

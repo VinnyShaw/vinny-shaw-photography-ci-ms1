@@ -45,9 +45,8 @@ header {
     -o-transition: color .35s ease-in-out;
 }
 
-/* aqua for testing */
 .logo a:hover {
-    color: aqua
+    color: #669999
 }
 
 
@@ -61,18 +60,19 @@ header {
     margin: 0;
 }
 
-#nav li {
+.nav li {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
 }
 
-.menuitem {
-    /* height:  20px; */
+/* .menuitem {
+    height: 20px;
     width: 75px;
     text-align: center;
     padding: 0;
-}
+} */
 
+/* can i move these rules to .nav? */
 .menuitem a {
     padding: 5px;
     color: #fafafa;
@@ -84,16 +84,24 @@ header {
 }
 
 .menuitem a:hover {
-    color: aqua
+    color: #669999
 }
 
-.menuitem span {
-    display: block;
-    /* width: 100px; */
-    /* padding-top: 40px; */
-    font-weight: 300;
+.nav-link {
+    width: 75px;
+}
+
+.nav-link a {
     margin: 0;
 }
+
+/* .menuitem span {
+    display: block;
+    width: 100px;
+    padding-top: 40px;
+    font-weight: 300;
+    margin: 0;
+} */
 
 /* -------------------- Sections */
 
@@ -115,17 +123,17 @@ header {
 
 /* -------------------- Home title */
 
-.landing-title {
+/* .section-text does the same currently */
+/* .landing-title {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 100%;
+    width: 50%;
     text-align: center;
     text-decoration: none;
+} */
 
-}
-
-.landing-title a {
+.landing-title a, h1, h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     text-decoration: none;
@@ -136,8 +144,16 @@ header {
     -o-transition: color .35s ease-in-out;
 }
 
-.landing-title a:hover {
-    color: aqua
+/* .landing-title a:hover {
+    color: #669999
+} */
+
+.landing-title h1:hover {
+    color: #669999
+}
+
+.landing-title h3:hover {
+    color: #669999
 }
 
 /* .logo-big {
@@ -238,7 +254,7 @@ footer i {
 
 .contact-link a i:hover,
 .talk:hover {
-    color: aqua
+    color: #669999
 }
 
 .social-links li a i {
@@ -251,5 +267,5 @@ footer i {
 }
 
 .social-links li a i:hover {
-    color: aqua
+    color: #669999
 }

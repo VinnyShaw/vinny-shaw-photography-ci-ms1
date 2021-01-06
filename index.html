@@ -19,34 +19,14 @@
             <div class="row no-gutters">
                 <!-- Logo -->
                 <div class="logo logo-container col-sm-4 col-lg-6 text-center">
-                    <a class="logo text-center" href="#home">V✵S</a>
+                    <div class="row">
+                        <a class="col-lg-8 logo text-center" href="#home">V✵S</a>
+                    </div>
                 </div>
                     
                 <!-- Navigation -->
-                <!-- <div class="col-sm-8 col-lg-6">
-                    <ul id="nav" class="list-inline menucontainer text-center ">
-                        <li class="d-none d-sm-inline-block col-md-6 list-inline-item menuitem">
-                            <a href="#home"><span>Home</span></a>
-                        </li>
-                        <li class="col-md-6 list-inline-item menuitem">
-                            <a href="#about"><span>About</span></a>
-                        </li>
-                        <li class="col-md-6 list-inline-item menuitem">
-                            <a href="#gallery"><span>Gallery</span></a>
-                        </li>
-                        <li class="col-md-6 list-inline-item menuitem">
-                            <a href="#services"><span>Services</span></a>
-                        </li>
-                        <li class="col-md-6 list-inline-item menuitem">
-                            <a href="#contact"><span>Contact</span></a>
-                        </li>
-                    </ul>
-                </div> -->
-
                 <div class="col-sm-8 col-lg-5" role="navigation">
-
                     <ul class="nav justify-content-center nav-fill">
-
                         <li class="nav-item d-none d-sm-inline-block menuitem">
                             <a class="nav-link" href="#home"><span>Home</span></a>
                         </li>
@@ -62,9 +42,7 @@
                         <li class="nav-item menuitem">
                             <a class= "nav-link" href="#contact"><span>Contact</span></a>
                         </li>
-
                     </ul>
-
                 </div>
 
             </div>
@@ -76,7 +54,7 @@
 
         <!-- Home -->
         <div id="home" class="home section-container bg-secondary">
-            <img class="bg-img" src="#">
+            <img class="bg-img" src="#" alt="Green ferns">
             <!-- look at containing the width of link area -->
             <div class="section-text centered landing-title">
                 <a href="#about">
@@ -88,7 +66,7 @@
 
         <!-- About -->
         <div id="about" class="bg-info section-container">
-            <img class="bg-img" src="#">
+            <img class="bg-img" src="#"  alt="Picture of Vinny Shaw">
             <div class="col col-sm-6 centered section-text">
                 <h1 class="text-uppercase">Vinny</h1>
                 <p>Stuff about me and what I do.<br>Should this text be positioned with row/col?<br>I want it left aligned also.</p>
@@ -97,7 +75,7 @@
         
         <!-- Gallery -->
         <div id="gallery" class="row bg-secondary section-container">
-            <img class="bg-img" src="#">
+            <img class="bg-img" src="#"  alt="">
             <div class="col section-text centered">
                 <h1 class="text-uppercase">Gallery</h1>
                 <p>There will be pics here.</p>
@@ -106,7 +84,7 @@
         
         <!-- Services -->
         <div id="services" class="row bg-info section-container">
-            <img class="bg-img" src="#">
+            <img class="bg-img" src="#"  alt="">
             <div class="col section-text centered">
                 <h1 class="text-uppercase">Services</h1>
                 <p>Portrait. Product. Automotive.</p>
@@ -116,35 +94,48 @@
         
         <!-- Contact -->
         <div id="contact" class="row bg-secondary section-container">
-            <img class="bg-img" src="#">
+            <img class="bg-img" src="#"  alt="">
             <div class="col section-text centered">
                 <h1 class="text-uppercase">Let's Talk!</h1>
                 
                 <!-- Form -->
-                <form>
-                    <!-- Names -->
+                <form method="post" action="https://formdump.codeinstitute.net/">
+
+                    <!-- Input area -->
                     <div class="form-row justify-content-center">
-                        <div class="form-group col-sm-6 col-lg-4">
-                            <input type="name" class="form-control form-control-sm" id="first-name" aria-describedby="first name" placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="form-row justify-content-center">
-                        <div class="form-group col-sm-6 col-lg-4">
-                            <input type="name" class="form-control form-control-sm" id="last-name" aria-describedby="last name" placeholder="Last Name">
-                        </div>
-                    </div>
+
+                        <!-- Upper/Left section -->
+                        <div class="col-xs col-sm-6 col-md-4">
+
+                            <!-- Names -->
+                            <div class="form-row justify-content-center">
+                                <div class="form-group col col-md-10">
+                                    <input type="text" class="form-control form-control-sm" id="first-name" aria-describedby="first-name" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="form-row justify-content-center">
+                                <div class="form-group col col-md-10">
+                                    <input type="text" class="form-control form-control-sm" id="last-name" aria-describedby="last-name" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            
+                            <!-- Email -->
+                            <div class="form-row justify-content-center">
+                                <div class="form-group col col-md-10">
+                                    <input type="email" class="form-control form-control-md" id="email" aria-describedby="email" placeholder="Email" required>
+                                </div>
+                            </div>
                     
-                    <!-- Email -->
-                    <div class="form-row justify-content-center">
-                        <div class="form-group col-sm-6 col-lg-4">
-                            <input type="email" class="form-control form-control-sm" id="email" aria-describedby="email" placeholder="Email">
-                        </div>
-                    </div>
+                        </div>        
                     
-                    <!-- Message -->
-                    <div class="form-row justify-content-center">
-                        <div class="form-group col-sm-6 col-lg-4">
-                            <textarea rows="5" class="form-control form-control-sm" id="message" aria-describedby="message" placeholder="Your message..."></textarea>
+                        <!-- Lower/Right section -->
+                        <div class="col-xs col-sm-6 col-md-4">
+                            <!-- Message -->
+                            <div class="form-row justify-content-center">
+                                <div class="form-group col col-md-10">
+                                    <textarea rows="5" class="form-control form-control-md" id="message" aria-describedby="message" placeholder="Your message..." required></textarea>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -154,6 +145,7 @@
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </div>
+                        
                 </form>
             
             </div>
@@ -174,31 +166,31 @@
 
                 <!-- Copyright -->
                 <div class="col-sm-4 text-center footer-text">
-                    <span>&copy VINNY SHAW 2020</span>
+                    <span>&copy; VINNY SHAW 2020</span>
                 </div>
                 <!-- Social media links -->
                 <div class="social-link col-sm-4 text-center">
                     <ul class="list-inline social-links text-center">
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.facebook.com">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.twitter.com">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                 <span class="sr-only">Twitter</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.instagram.com">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.linkedin.com">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 <span class="sr-only">LinkedIn</span>
                             </a>

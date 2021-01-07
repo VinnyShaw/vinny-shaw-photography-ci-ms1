@@ -1,98 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
 
-/* -------------------- Smooth scrolling */
+/* -------------------- Smooth Scrolling */
 
 html {
-    scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
-body, html {
+/* ??????? */
+
+/* body, html {
     height: 100%;
     width: 100%;
-}
+} */
 
 /* -------------------- Header */
 
 header {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-container {
-	max-height: 150px;
-	padding: 0;
-	margin: 0;
+  max-height: 150px;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-    color: #fafafa;
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #fafafa;
 }
 
 .logo-container a {
-    text-decoration: none;
-    color: #fafafa;
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #fafafa;
-    transition: color .35s ease-in-out;
-    -moz-transition: color .35s ease-in-out;
-    -webkit-transition: color .35s ease-in-out;
-    -o-transition: color .35s ease-in-out;
+  text-decoration: none;
+  color: #fafafa;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
 }
 
 .logo a:hover {
-    color: #669999
-}
-
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
+  color: #669999;
 }
 
 .menucontainer {
-    text-align: center;
-    padding: 0;
-    margin: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .nav li {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 }
 
 .menuitem {
-    height: 75px;
-    /* width: 75px; */
-    /* text-align: center; */
-    padding-top: 20px;
+  height: 75px;
+  /* width: 75px; */
+  /* text-align: center; */
+  padding-top: 20px;
 }
 
 /* can i move these rules to .nav? */
 .menuitem a {
-    padding: 5px;
-    color: #fafafa;
-    text-decoration: none;
-    transition: color .35s ease-in-out;
-    -moz-transition: color .35s ease-in-out;
-    -webkit-transition: color .35s ease-in-out;
-    -o-transition: color .35s ease-in-out;
+  padding: 5px;
+  color: #fafafa;
+  text-decoration: none;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
 }
 
 .menuitem a:hover {
-    color: #669999
+  color: #669999;
 }
 
 .nav-link {
-    width: 75px;
+  width: 75px;
 }
 
 .nav-link a {
-    margin: 0;
+  margin: 0;
 }
 
 /* .menuitem span {
@@ -133,34 +130,31 @@ header {
     text-decoration: none;
 } */
 
-.landing-title a, h1, h3 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
-    color: #fafafa;
-    transition: color .35s ease-in-out;
-    -moz-transition: color .35s ease-in-out;
-    -webkit-transition: color .35s ease-in-out;
-    -o-transition: color .35s ease-in-out;
+.landing-title a,
+h1,
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fafafa;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
 }
 
-/* .landing-title a:hover {
-    color: #669999
-} */
-
 .landing-title h1:hover {
-    color: #669999
+  color: #669999;
 }
 
 .landing-title h3:hover {
-    color: #669999
+  color: #669999;
 }
 
 /* .logo-big {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 } */
-
 
 /* .bg-img {
     height: 100%;
@@ -184,170 +178,171 @@ img {
     width: auto;
 } */
 
-/* -------------------- Background Images */
+/* -------------------- Background Images and Media Queries */
 
-.bg-img { 
+.bg-img {
   background-position: center center;
-  /* background-attachment: fixed;  */
-  background-repeat: no-repeat; 
-  background-size: cover; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* media queries will move to seperate section*/
-
-/* Home */
+/* Mobile */
 .home {
-    background-image: url(../assets/img/home/fern-bg-xs.jpg);
+  background-image: url(/assets/img/home/fern-bg-xs.jpg);
 }
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .home {
-        background-image: url(../assets/img/home/fern-bg-sm.jpg);
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .home {
-        background-image: url(../assets/img/home/fern-bg-md.jpg);
-    }
-}
-
-@media (min-width: 992px) {
-    .home {
-	    background-image: url(../assets/img/home/fern-bg-lg.jpg);
-   }
-}
-
-/* About */
 .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-xs.jpg);
+  background-image: url(/assets/img/about/vinny-shaw-bg-xs.jpg);
 }
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .about {
-        background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .about {
-        background-image: url(/assets/img/about/vinny-shaw-bg-md.jpg);
-    }
-}
-
-@media (min-width: 992px) {
-    .about {
-	    background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
-   }
-}
-
-/* Gallery */
 .gallery {
-    background-image: url(/assets/img/contact/trees-bg-xs.jpg);
+  background-image: url(/assets/img/gallery/#);
 }
-
-.gallery {
-    background-image: url(/assets/img/gallery/#);
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .gallery {
-        background-image: url(/assets/img/gallery/#);
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .gallery {
-        background-image: url(/assets/img/gallery/#);
-    }
-}
-
-@media (min-width: 992px) {
-    .gallery {
-	    background-image: url(/assets/img/gallery/#);
-   }
-}
-
-/* Services */
 .services {
-    background-image: url(/assets/img/services/#);
+  background-image: url(/assets/img/services/#);
+}
+.contact {
+  background-image: url(/assets/img/contact/trees-bg-xs.jpg);
 }
 
-/* Contact */
-.contact {
+/* Landscape */
+@media (min-width: 576px) and (max-width: 767px) {
+  .home {
+    background-image: url(/assets/img/home/fern-bg-sm.jpg);
+  }
+  .about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
+  }
+  .about-text {
+    font-size: x-small;
+    margin: 20px 20px 0 20px;
+  }
+  .gallery {
+    background-image: url(/assets/img/gallery/#);
+  }
+  .services {
+    background-image: url(/assets/img/services/#);
+  }
+  .contact {
     background-image: url(/assets/img/contact/#);
-} 
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .home {
+    background-image: url(/assets/img/home/fern-bg-md.jpg);
+  }
+  .about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-md.jpg);
+  }
+  .about-text {
+    font-size: larger;
+    margin: 20px 20px 0 20px;
+  }
+  .gallery {
+    background-image: url(/assets/img/gallery/#);
+  }
+  .services {
+    background-image: url(/assets/img/services/#);
+  }
+  .contact {
+    background-image: url(/assets/img/contact/#);
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .home {
+    background-image: url(/assets/img/home/fern-bg-lg.jpg);
+  }
+  .about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
+  }
+  .gallery {
+    background-image: url(/assets/img/gallery/#);
+  }
+  .services {
+    background-image: url(/assets/img/services/#);
+  }
+  .contact {
+    background-image: url(/assets/img/contact/#);
+  }
+}
 
 /* -------------------- Sections */
 
 .section-text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  text-align: center;
 }
 
-.section-text 
-h1, 
+.section-text h1,
 h3 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  text-decoration: none;
 }
 
 .container {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    height: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 100%;
 }
 
-
-/* .about-text {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    color: #fff;
-} */
+/* create media query to position on larger screens */
+.about-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: x-small;
+  font-weight: 300;
+  color: #fff;
+  margin: 200px 20px 0 20px;
+}
 
 /* -------------------- Footer */
 
 .footer-text {
-	font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    text-decoration: none;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  text-decoration: none;
 }
 
 footer i {
-    color: #fafafa;
-    margin: 0 7px;
+  color: #fafafa;
+  margin: 0 7px;
 }
 
 .contact-link a i,
 .talk {
-    color: #fafafa;
-    transition: color .35s ease-in-out;
-    -moz-transition: color .35s ease-in-out;
-    -webkit-transition: color .35s ease-in-out;
-    -o-transition: color .35s ease-in-out;
+  color: #fafafa;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
 }
 
 .contact-link a i:hover,
 .talk:hover {
-    color: #669999
+  color: #669999;
 }
 
 .social-links li a i {
-    padding: 5px;
-    color: #fafafa;
-    transition: color .35s ease-in-out;
-    -moz-transition: color .35s ease-in-out;
-    -webkit-transition: color .35s ease-in-out;
-    -o-transition: color .35s ease-in-out;
+  padding: 5px;
+  color: #fafafa;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    color: #669999
+  color: #669999;
 }

@@ -197,24 +197,24 @@ img {
 
 /* Home */
 .home {
-    background-image: url(/assets/img/home/fern-bg-xs.jpg);
+    background-image: url(../assets/img/home/fern-bg-xs.jpg);
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .home {
-        background-image: url(/assets/img/home/fern-bg-sm.jpg);
+        background-image: url(../assets/img/home/fern-bg-sm.jpg);
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .home {
-        background-image: url(/assets/img/home/fern-bg-md.jpg);
+        background-image: url(../assets/img/home/fern-bg-md.jpg);
     }
 }
 
 @media (min-width: 992px) {
     .home {
-	    background-image: url(/assets/img/home/fern-bg-lg.jpg);
+	    background-image: url(../assets/img/home/fern-bg-lg.jpg);
    }
 }
 

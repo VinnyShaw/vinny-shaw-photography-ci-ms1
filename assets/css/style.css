@@ -164,37 +164,119 @@ header {
 
 /* .bg-img {
     height: 100%;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 } */
 
-
-/*
-.home {
-	background-image: url("../assets/img/fern-bg-mobile.jpg") alt="fern">
+/* .home {
+    background-image: url("/assets/img/home/fern-bg-xs.jpg") alt="fern";
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 } */
 
-
+/* 
 img {
-	height: 100%;
+    max-height: 100%;
+    width: auto;
+} */
+
+/* -------------------- Background Images */
+
+.bg-img { 
+  background-position: center center;
+  /* background-attachment: fixed;  */
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
-/* .about {
-    background-image: url(/assets/img/vinny-shaw-profile-pic-1.jpg);
+/* media queries will move to seperate section*/
+
+/* Home */
+.home {
+    background-image: url(/assets/img/home/fern-bg-xs.jpg);
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .home {
+        background-image: url(/assets/img/home/fern-bg-sm.jpg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home {
+        background-image: url(/assets/img/home/fern-bg-md.jpg);
+    }
+}
+
+@media (min-width: 992px) {
+    .home {
+	    background-image: url(/assets/img/home/fern-bg-lg.jpg);
+   }
+}
+
+/* About */
+.about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-xs.jpg);
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .about {
+        background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about {
+        background-image: url(/assets/img/about/vinny-shaw-bg-md.jpg);
+    }
+}
+
+@media (min-width: 992px) {
+    .about {
+	    background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
+   }
+}
+
+/* Gallery */
+.gallery {
+    background-image: url(/assets/img/contact/trees-bg-xs.jpg);
 }
 
 .gallery {
-    background-image: url(/assets/img/trees-bg.jpg);
+    background-image: url(/assets/img/gallery/#);
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+    .gallery {
+        background-image: url(/assets/img/gallery/#);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .gallery {
+        background-image: url(/assets/img/gallery/#);
+    }
+}
+
+@media (min-width: 992px) {
+    .gallery {
+	    background-image: url(/assets/img/gallery/#);
+   }
+}
+
+/* Services */
 .services {
-    background-image: url(/assets/img/trees-bg.jpg);
+    background-image: url(/assets/img/services/#);
 }
 
+/* Contact */
 .contact {
-    background-image: url(/assets/img/trees-bg.jpg);
-} */
+    background-image: url(/assets/img/contact/#);
+} 
 
 /* -------------------- Sections */
 

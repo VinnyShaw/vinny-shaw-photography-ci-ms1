@@ -6,13 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ??????? */
-
-/* body, html {
-    height: 100%;
-    width: 100%;
-} */
-
 /* -------------------- Header */
 
 header {
@@ -20,17 +13,12 @@ header {
   padding: 0;
 }
 
-.logo-container {
-  max-height: 150px;
-  padding: 0;
-  margin: 0;
-}
+/* -------------------- Logo */
 
 .logo {
   font-family: "Work Sans", sans-serif;
   font-size: 50px;
   font-weight: 300;
-  color: #fafafa;
 }
 
 .logo-container a {
@@ -51,11 +39,7 @@ header {
   color: #669999;
 }
 
-.menucontainer {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
+/* -------------------- Navigation */
 
 .nav li {
   font-family: "Work Sans", sans-serif;
@@ -64,8 +48,6 @@ header {
 
 .menuitem {
   height: 75px;
-  /* width: 75px; */
-  /* text-align: center; */
   padding-top: 20px;
 }
 
@@ -90,183 +72,6 @@ header {
 
 .nav-link a {
   margin: 0;
-}
-
-/* .menuitem span {
-    display: block;
-    width: 100px;
-    padding-top: 40px;
-    font-weight: 300;
-    margin: 0;
-} */
-
-/* -------------------- Sections */
-
-.section-container {
-  height: 100vh;
-  position: relative;
-  text-align: center;
-  color: #fafafa;
-  margin: 0;
-  padding: 0;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* -------------------- Home title */
-
-/* .section-text does the same currently */
-/* .landing-title {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 50%;
-    text-align: center;
-    text-decoration: none;
-} */
-
-.landing-title a,
-h1,
-h3 {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-  text-decoration: none;
-  color: #fafafa;
-  transition: color 0.35s ease-in-out;
-  -moz-transition: color 0.35s ease-in-out;
-  -webkit-transition: color 0.35s ease-in-out;
-  -o-transition: color 0.35s ease-in-out;
-}
-
-.landing-title h1:hover {
-  color: #669999;
-}
-
-.landing-title h3:hover {
-  color: #669999;
-}
-
-/* .logo-big {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-} */
-
-/* .bg-img {
-    height: 100%;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-/* .home {
-    background-image: url("/assets/img/home/fern-bg-xs.jpg") alt="fern";
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-/* 
-img {
-    max-height: 100%;
-    width: auto;
-} */
-
-/* -------------------- Background Images and Media Queries */
-
-.bg-img {
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Mobile */
-.home {
-  background-image: url(/assets/img/home/fern-bg-xs.jpg);
-}
-.about {
-  background-image: url(/assets/img/about/vinny-shaw-bg-xs.jpg);
-}
-.gallery {
-  background-image: url(/assets/img/gallery/#);
-}
-.services {
-  background-image: url(/assets/img/services/#);
-}
-.contact {
-  background-image: url(/assets/img/contact/trees-bg-xs.jpg);
-}
-
-/* Landscape */
-@media (min-width: 576px) and (max-width: 767px) {
-  .home {
-    background-image: url(/assets/img/home/fern-bg-sm.jpg);
-  }
-  .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
-  }
-  .about-text {
-    font-size: x-small;
-    margin: 20px 20px 0 20px;
-  }
-  .gallery {
-    background-image: url(/assets/img/gallery/#);
-  }
-  .services {
-    background-image: url(/assets/img/services/#);
-  }
-  .contact {
-    background-image: url(/assets/img/contact/#);
-  }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 991px) {
-  .home {
-    background-image: url(/assets/img/home/fern-bg-md.jpg);
-  }
-  .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-md.jpg);
-  }
-  .about-text {
-    font-size: larger;
-    margin: 20px 20px 0 20px;
-  }
-  .gallery {
-    background-image: url(/assets/img/gallery/#);
-  }
-  .services {
-    background-image: url(/assets/img/services/#);
-  }
-  .contact {
-    background-image: url(/assets/img/contact/#);
-  }
-}
-
-/* Desktop */
-@media (min-width: 992px) {
-  .home {
-    background-image: url(/assets/img/home/fern-bg-lg.jpg);
-  }
-  .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
-  }
-  .gallery {
-    background-image: url(/assets/img/gallery/#);
-  }
-  .services {
-    background-image: url(/assets/img/services/#);
-  }
-  .contact {
-    background-image: url(/assets/img/contact/#);
-  }
 }
 
 /* -------------------- Sections */
@@ -296,12 +101,52 @@ h3 {
   height: 100%;
 }
 
-/* create media query to position on larger screens */
+.section-container {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -------------------- Home title */
+
+.landing-title a,
+h1,
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fafafa;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
+}
+
+.landing-title h1:hover {
+  color: #669999;
+}
+
+.landing-title h3:hover {
+  color: #669999;
+}
+
+/* -------------------- About */
+
 .about-text {
   font-family: "Work Sans", sans-serif;
   font-size: x-small;
   font-weight: 300;
-  color: #fff;
+  color: #fafafa;
   margin: 200px 20px 0 20px;
 }
 
@@ -345,4 +190,100 @@ footer i {
 
 .social-links li a i:hover {
   color: #669999;
+}
+
+/* -------------------- Background Images and Media Queries */
+
+.bg-img {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Mobile - xs */
+.home {
+  background-image: url(/assets/img/home/fern-bg-xs.jpg);
+}
+.about {
+  background-image: url(/assets/img/about/vinny-shaw-bg-xs.jpg);
+}
+.gallery {
+  background-image: url(/assets/img/gallery/#);
+}
+.services {
+  background-image: url(/assets/img/services/#);
+}
+.contact {
+  background-image: url(/assets/img/contact/trees-bg-xs.jpg);
+}
+
+/* Landscape - sm */
+@media (min-width: 575px) and (max-width: 767px) {
+  .home {
+    background-image: url(/assets/img/home/fern-bg-sm.jpg);
+  }
+  .about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
+  }
+  .about-text {
+    font-size: x-small;
+    margin: 20px 20px 0 65px;
+  }
+  .gallery {
+    background-image: url(/assets/img/gallery/#);
+  }
+  .services {
+    background-image: url(/assets/img/services/#);
+  }
+  .contact {
+    background-image: url(/assets/img/contact/#);
+  }
+}
+
+/* Tablet - md */
+@media (min-width: 768px) and (max-width: 991px) {
+  .home {
+    background-image: url(/assets/img/home/fern-bg-md.jpg);
+  }
+  .about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-md.jpg);
+    background-position-x: 70%;
+  }
+  .about-text {
+    font-size: larger;
+    margin: 20px 20px 0 80px;
+  }
+  .gallery {
+    background-image: url(/assets/img/gallery/#);
+  }
+  .services {
+    background-image: url(/assets/img/services/#);
+  }
+  .contact {
+    background-image: url(/assets/img/contact/#);
+  }
+}
+
+/* Desktop - lg */
+@media (min-width: 992px) {
+  .home {
+    background-image: url(/assets/img/home/fern-bg-lg.jpg);
+  }
+  .about {
+    background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
+  }
+  .about-text {
+    font-size: larger;
+    margin: 20px 20px 0 115px;
+  }
+  .gallery {
+    background-image: url(/assets/img/gallery/#);
+  }
+  .services {
+    background-image: url(/assets/img/services/#);
+  }
+  .contact {
+    background-image: url(/assets/img/contact/#);
+  }
 }

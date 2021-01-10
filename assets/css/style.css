@@ -237,7 +237,7 @@ footer i {
     background-image: url(/assets/img/services/#);
   }
   .contact {
-    background-image: url(/assets/img/contact/#);
+    background-image: url(/assets/img/contact/trees-bg-sm.jpg);
   }
 }
 
@@ -261,7 +261,7 @@ footer i {
     background-image: url(/assets/img/services/#);
   }
   .contact {
-    background-image: url(/assets/img/contact/#);
+    background-image: url(/assets/img/contact/trees-bg-md.jpg);
   }
 }
 
@@ -284,6 +284,6 @@ footer i {
     background-image: url(/assets/img/services/#);
   }
   .contact {
-    background-image: url(/assets/img/contact/#);
+    background-image: url(/assets/img/contact/trees-bg-lg.jpg);
   }
 }

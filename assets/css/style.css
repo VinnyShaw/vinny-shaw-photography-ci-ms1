@@ -152,8 +152,13 @@ h3 {
 /* -------------------- Services Section */
 
 /* This needs looked at */
+
+.card-container {
+  margin-top: 40px;
+}
+
 .card {
-  margin: 10px 50px 0 50px;
+  margin: 5px 50px;
   padding: 0;
   border: 0;
 }
@@ -166,12 +171,13 @@ h3 {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   color: #fafafa;
+  margin-top: 35px;
 }
 
-.card-img-top {
+/* .card-img-top {
   height: 100%;
   object-fit: cover;
-}
+} */
 
 /* -------------------- Footer */
 
@@ -235,7 +241,7 @@ footer i {
   background-image: url(/assets/img/gallery/#);
 }
 .services {
-  background-image: url(/assets/img/services/#);
+  background-image: url(/assets/img/contact/trees-bg-xs.jpg);
 }
 .contact {
   background-image: url(/assets/img/contact/trees-bg-xs.jpg);
@@ -260,7 +266,10 @@ footer i {
     background-image: url(/assets/img/gallery/#);
   }
   .services {
-    background-image: url(/assets/img/services/#);
+    background-image: url(/assets/img/contact/trees-bg-sm.jpg);
+  }
+  .card {
+    margin: 10px;
   }
   .contact {
     background-image: url(/assets/img/contact/trees-bg-sm.jpg);
@@ -287,7 +296,7 @@ footer i {
     background-image: url(/assets/img/gallery/#);
   }
   .services {
-    background-image: url(/assets/img/services/#);
+    background-image: url(/assets/img/contact/trees-bg-md.jpg);
   }
   .contact {
     background-image: url(/assets/img/contact/trees-bg-md.jpg);
@@ -313,7 +322,7 @@ footer i {
     background-image: url(/assets/img/gallery/#);
   }
   .services {
-    background-image: url(/assets/img/services/#);
+    background-image: url(/assets/img/contact/trees-bg-lg.jpg);
   }
   .contact {
     background-image: url(/assets/img/contact/trees-bg-lg.jpg);

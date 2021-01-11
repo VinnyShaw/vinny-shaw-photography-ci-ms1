@@ -43,14 +43,14 @@ header {
 
 .nav li {
   font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .menuitem {
   height: 75px;
 }
 
-/* can i move these rules to .nav? */
+/* ? can i move these rules to .nav? */
 .menuitem a {
   padding: 5px;
   color: #fafafa;
@@ -143,7 +143,7 @@ h3 {
 
 .about-text {
   font-family: "Work Sans", sans-serif;
-  font-size: x-small;
+  font-size: 0.7rem;
   font-weight: 300;
   color: #fafafa;
   margin: 200px 20px 0 20px;
@@ -151,7 +151,7 @@ h3 {
 
 /* -------------------- Services Section */
 
-/* This needs looked at */
+/* todo: This needs looked at, does it need to be cards? */
 
 .card-container {
   margin-top: 40px;
@@ -174,6 +174,7 @@ h3 {
   margin-top: 35px;
 }
 
+/* ? Is this needed? */
 /* .card-img-top {
   height: 100%;
   object-fit: cover;
@@ -182,7 +183,7 @@ h3 {
 /* -------------------- Footer */
 
 .footer-text {
-  font-size: 14px;
+  font-size: 0.8rem;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   color: #fafafa;
@@ -259,8 +260,8 @@ footer i {
     background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
   }
   .about-text {
-    font-size: x-small;
-    margin: 20px 20px 0 65px;
+    font-size: 0.7rem;
+    margin: 20px 20px 0 67px;
   }
   .gallery {
     background-image: url(/assets/img/gallery/#);
@@ -289,7 +290,7 @@ footer i {
     background-position-x: 70%;
   }
   .about-text {
-    font-size: larger;
+    font-size: 1.2rem;
     margin: 20px 20px 0 80px;
   }
   .gallery {
@@ -315,7 +316,7 @@ footer i {
     background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
   }
   .about-text {
-    font-size: larger;
+    font-size: 1.4rem;
     margin: 20px 20px 0 115px;
   }
   .gallery {

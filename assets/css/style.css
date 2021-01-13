@@ -116,6 +116,13 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
+/* .caption-lower-left {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+} */
+
 /* -------------------- Home Section */
 
 .landing-title a,
@@ -146,12 +153,12 @@ h3 {
   font-size: 0.7rem;
   font-weight: 300;
   color: #fafafa;
-  margin: 200px 20px 0 20px;
+  margin: 275px 20px 0 20px;
 }
 
 /* -------------------- Services Section */
 
-/* todo: This needs looked at, does it need to be cards? */
+/* todo: This needs looked at, should there be a link or hover? */
 
 .card-container {
   margin-top: 40px;
@@ -161,6 +168,7 @@ h3 {
   margin: 5px 50px;
   padding: 0;
   border: 0;
+  flex-direction: unset;
 }
 
 .card-body {
@@ -170,9 +178,9 @@ h3 {
 .card-title {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: #fafafa;
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
 /* ? Is this needed? */
@@ -180,6 +188,14 @@ h3 {
   height: 100%;
   object-fit: cover;
 } */
+
+/* -------------------- Contact Section */
+
+.btn-submit {
+  color: #fafafa;
+  background-color: #669999;
+  border: #669999;
+}
 
 /* -------------------- Footer */
 
@@ -317,7 +333,7 @@ footer i {
     background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
   }
   .about-text {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 20px 20px 0 115px;
   }
   .gallery {

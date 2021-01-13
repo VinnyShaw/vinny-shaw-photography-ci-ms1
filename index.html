@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <!-- todo: Add content and labels -->
+    <!-- todo: Add content and captions -->
     <!-- Gallery -->
     <div id="gallery" class="gallery bg-img row bg-secondary section-container">
       <!-- Carousel -->
@@ -122,6 +122,11 @@
               class="d-block w-100"
               alt="..."
             />
+            <!-- todo: decide on captions and positions -->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Portrait</h5>
+              <p>Vinny Shaw</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img
@@ -159,7 +164,7 @@
       </div>
     </div>
 
-    <!-- todo: fix the card bg/border -->
+    <!-- todo: fix caption position -->
     <!-- Services -->
     <div id="services" class="services bg-img row bg-info section-container">
       <div class="col section-text centered">
@@ -168,36 +173,36 @@
 
         <div class="card-container row justify-content-center">
           <!-- Portrait -->
-          <div class="col-sm-3 card bg-warning">
+          <div class="col-sm-3 col-md-6 col-lg-4 card">
             <img
               class="card-img-top"
               src="assets/img/services/portrait-sm.jpg"
               alt="Portrait"
             />
             <div class="card-body">
-              <h5 class="card-title centered">Portrait</h5>
+              <h4 class="card-title centered text-uppercase">Portrait</h4>
             </div>
           </div>
           <!-- Product -->
-          <div class="col-sm-3 card bg-warning">
+          <div class="col-sm-3 col-md-6 col-lg-4 card">
             <img
               class="card-img-top"
               src="assets/img/services/product-sm.jpg"
               alt="Product"
             />
             <div class="card-body">
-              <h5 class="card-title centered">Product</h5>
+              <h4 class="card-title centered text-uppercase">Product</h4>
             </div>
           </div>
           <!-- Automotive -->
-          <div class="col-sm-3 card bg-warning">
+          <div class="col-sm-3 col-md-6 col-lg-4 card">
             <img
               class="card-img-top"
               src="assets/img/services/automotive-sm.jpg"
               alt="Car"
             />
             <div class="card-body">
-              <h5 class="card-title centered">Automotive</h5>
+              <h4 class="card-title centered text-uppercase">Automotive</h4>
             </div>
           </div>
         </div>
@@ -277,7 +282,9 @@
           <!-- Button -->
           <div class="form-row">
             <div class="form-group col">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary btn-submit">
+                Submit
+              </button>
             </div>
           </div>
         </form>
@@ -299,7 +306,7 @@
 
         <!-- Copyright -->
         <div class="col-sm-4 text-center footer-text">
-          <span>&copy; VINNY SHAW 2020</span>
+          <span class="small text-muted">&copy; VINNY SHAW 2021</span>
         </div>
         <!-- Social media links -->
         <div class="social-link col-sm-4 text-center">

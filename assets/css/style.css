@@ -52,7 +52,7 @@ header {
 
 /* ? can i move these rules to .nav? */
 .menuitem a {
-  padding: 5px;
+  /* padding: 0; */
   color: #fafafa;
   text-decoration: none;
   transition: color 0.35s ease-in-out;
@@ -71,6 +71,10 @@ header {
 
 .nav-link a {
   margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
 }
 
 /* -------------------- Sections */
@@ -115,13 +119,6 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* .caption-lower-left {
-  position: absolute;
-  top: 80%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-} */
 
 /* -------------------- Home Section */
 
@@ -250,60 +247,60 @@ footer i {
 
 /* Mobile - xs */
 .home {
-  background-image: url(/assets/img/home/fern-bg-xs.jpg);
+  background-image: url(../img/home/fern-bg-xs.jpg);
 }
 .about {
-  background-image: url(/assets/img/about/vinny-shaw-bg-xs.jpg);
+  background-image: url(../img/about/vinny-shaw-bg-xs.jpg);
 }
 .gallery {
-  background-image: url(/assets/img/gallery/#);
+  background-image: url(../img/gallery/#);
 }
 .services {
-  background-image: url(/assets/img/contact/trees-bg-xs.jpg);
+  background-image: url(../img/contact/trees-bg-xs.jpg);
 }
 .contact {
-  background-image: url(/assets/img/contact/trees-bg-xs.jpg);
+  background-image: url(../img/contact/trees-bg-xs.jpg);
 }
 
 /* Landscape - sm */
 @media (min-width: 575px) and (max-width: 767px) {
   .home {
-    background-image: url(/assets/img/home/fern-bg-sm.jpg);
+    background-image: url(../img/home/fern-bg-sm.jpg);
   }
   .menuitem {
     padding-top: 20px;
   }
   .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-sm.jpg);
+    background-image: url(../img/about/vinny-shaw-bg-sm.jpg);
   }
   .about-text {
     font-size: 0.7rem;
     margin: 20px 20px 0 67px;
   }
   .gallery {
-    background-image: url(/assets/img/gallery/#);
+    background-image: url(../img/gallery/#);
   }
   .services {
-    background-image: url(/assets/img/contact/trees-bg-sm.jpg);
+    background-image: url(../img/contact/trees-bg-sm.jpg);
   }
   .card {
     margin: 10px;
   }
   .contact {
-    background-image: url(/assets/img/contact/trees-bg-sm.jpg);
+    background-image: url(../img/contact/trees-bg-sm.jpg);
   }
 }
 
 /* Tablet - md */
 @media (min-width: 768px) and (max-width: 991px) {
   .home {
-    background-image: url(/assets/img/home/fern-bg-md.jpg);
+    background-image: url(../img/home/fern-bg-md.jpg);
   }
   .menuitem {
     padding-top: 20px;
   }
   .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-md.jpg);
+    background-image: url(../img/about/vinny-shaw-bg-md.jpg);
     background-position-x: 70%;
   }
   .about-text {
@@ -311,38 +308,38 @@ footer i {
     margin: 20px 20px 0 80px;
   }
   .gallery {
-    background-image: url(/assets/img/gallery/#);
+    background-image: url(../img/gallery/#);
   }
   .services {
-    background-image: url(/assets/img/contact/trees-bg-md.jpg);
+    background-image: url(../img/contact/trees-bg-md.jpg);
   }
   .contact {
-    background-image: url(/assets/img/contact/trees-bg-md.jpg);
+    background-image: url(../img/contact/trees-bg-md.jpg);
   }
 }
 
 /* Desktop - lg */
 @media (min-width: 992px) {
   .home {
-    background-image: url(/assets/img/home/fern-bg-lg.jpg);
+    background-image: url(../img/home/fern-bg-lg.jpg);
   }
   .menuitem {
     padding-top: 20px;
   }
   .about {
-    background-image: url(/assets/img/about/vinny-shaw-bg-lg.jpg);
+    background-image: url(../img/about/vinny-shaw-bg-lg.jpg);
   }
   .about-text {
     font-size: 1.3rem;
     margin: 20px 20px 0 115px;
   }
   .gallery {
-    background-image: url(/assets/img/gallery/#);
+    background-image: url(../img/gallery/#);
   }
   .services {
-    background-image: url(/assets/img/contact/trees-bg-lg.jpg);
+    background-image: url(../img/contact/trees-bg-lg.jpg);
   }
   .contact {
-    background-image: url(/assets/img/contact/trees-bg-lg.jpg);
+    background-image: url(../img/contact/trees-bg-lg.jpg);
   }
 }

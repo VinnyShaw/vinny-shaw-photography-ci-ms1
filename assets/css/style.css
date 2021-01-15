@@ -275,7 +275,7 @@ footer i {
 }
 
 /* Landscape - sm */
-@media (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .home {
     background-image: url(../img/home/fern-bg-sm.jpg);
   }
@@ -307,7 +307,7 @@ footer i {
 }
 
 /* Tablet - md */
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .home {
     background-image: url(../img/home/fern-bg-md.jpg);
   }
@@ -340,7 +340,7 @@ footer i {
 }
 
 /* Desktop - lg */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .home {
     background-image: url(../img/home/fern-bg-lg.jpg);
   }

@@ -188,6 +188,15 @@ h3 {
 
 /* -------------------- Contact Section */
 
+/* todo: will I need this? */
+/* .form-container {
+  margin-top: 20px;
+} */
+
+/* todo: will I need this to MQ font sizes? */
+/* .form-title {
+} */
+
 .btn-submit {
   color: #fafafa;
   background-color: #669999;
@@ -221,6 +230,10 @@ footer i {
 .contact-link a i:hover,
 .talk:hover {
   color: #669999;
+}
+
+.social-links {
+  margin-bottom: 0;
 }
 
 .social-links li a i {
@@ -263,7 +276,7 @@ footer i {
 }
 
 /* Landscape - sm */
-@media (min-width: 575px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .home {
     background-image: url(../img/home/fern-bg-sm.jpg);
   }
@@ -289,6 +302,9 @@ footer i {
   .contact {
     background-image: url(../img/contact/trees-bg-sm.jpg);
   }
+  .social-links {
+    margin-bottom: 16px;
+  }
 }
 
 /* Tablet - md */
@@ -304,7 +320,7 @@ footer i {
     background-position-x: 70%;
   }
   .about-text {
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     margin: 20px 20px 0 80px;
   }
   .gallery {
@@ -315,6 +331,9 @@ footer i {
   }
   .contact {
     background-image: url(../img/contact/trees-bg-md.jpg);
+  }
+  .social-links {
+    margin-bottom: 16px;
   }
 }
 
@@ -341,5 +360,8 @@ footer i {
   }
   .contact {
     background-image: url(../img/contact/trees-bg-lg.jpg);
+  }
+  .social-links {
+    margin-bottom: 16px;
   }
 }

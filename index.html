@@ -109,7 +109,7 @@
     <!-- Gallery -->
     <div id="gallery" class="gallery bg-img row bg-secondary section-container">
       <!-- Carousel -->
-      <div
+      <!-- <div
         id="carouselExampleControls"
         class="carousel slide active"
         data-ride="carousel"
@@ -121,7 +121,6 @@
               class="d-block w-100"
               alt="..."
             />
-            <!-- todo: decide on captions and positions -->
             <div class="carousel-caption d-none d-md-block">
               <h5>Portrait</h5>
               <p>Vinny Shaw</p>
@@ -160,19 +159,19 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> -->
     </div>
 
     <!-- todo: fix caption position -->
     <!-- Services -->
     <div id="services" class="services bg-img row bg-info section-container">
       <div class="col section-text centered">
-        <h1 class="text-uppercase d-none d-sm-inline-block">Services</h1>
+        <!-- <h1 class="text-uppercase d-none d-sm-inline-block">Services</h1> -->
         <!-- Cards -->
 
         <div class="card-container row justify-content-center">
           <!-- Portrait -->
-          <div class="col-sm-3 col-md-6 col-lg-4 card">
+          <div class="col-sm-3 col-md-3 col-lg-4 card">
             <img
               class="card-img-top"
               src="assets/img/services/portrait-sm.jpg"
@@ -183,7 +182,7 @@
             </div>
           </div>
           <!-- Product -->
-          <div class="col-sm-3 col-md-6 col-lg-4 card">
+          <div class="col-sm-3 col-md-3 col-lg-4 card">
             <img
               class="card-img-top"
               src="assets/img/services/product-sm.jpg"
@@ -194,7 +193,7 @@
             </div>
           </div>
           <!-- Automotive -->
-          <div class="col-sm-3 col-md-6 col-lg-4 card">
+          <div class="col-sm-3 col-md-3 col-lg-4 card">
             <img
               class="card-img-top"
               src="assets/img/services/automotive-sm.jpg"
@@ -210,8 +209,8 @@
 
     <!-- Contact -->
     <div id="contact" class="row contact bg-img bg-secondary section-container">
-      <div class="col section-text centered">
-        <h1 class="text-uppercase">Let's Talk!</h1>
+      <div class="col-10 form-container section-text centered">
+        <h3 class="text-uppercase form-title">Let's Talk!</h3>
 
         <!-- Form -->
         <form method="post" action="https://formdump.codeinstitute.net/">
@@ -293,7 +292,7 @@
     <!-- Footer -->
     <footer class="container-fluid fixed-bottom">
       <div class="row">
-        <!-- Contact link -->
+        <!-- Contact link - Hidden on smallest screens -->
         <div class="d-none d-sm-inline-block contact-link col-sm-4 text-center">
           <a href="#contact">
             <i class="fa fa-envelope" aria-hidden="true">
@@ -303,12 +302,8 @@
           </a>
         </div>
 
-        <!-- Copyright -->
-        <div class="col-sm-4 text-center footer-text">
-          <span class="small text-muted">&copy; VINNY SHAW 2021</span>
-        </div>
-        <!-- Social media links -->
-        <div class="social-link col-sm-4 text-center">
+        <!-- Social media links - Order changed to last on screens sm and above -->
+        <div class="social-link col-sm-4 order-sm-4 text-center">
           <ul class="list-inline social-links text-center">
             <li class="list-inline-item">
               <a target="_blank" href="https://www.facebook.com">
@@ -335,6 +330,11 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <!-- Copyright -->
+        <div class="col-sm-4 order-sm-2 text-center footer-text">
+          <span class="small text-muted">&copy; VINNY SHAW 2021</span>
         </div>
       </div>
     </footer>

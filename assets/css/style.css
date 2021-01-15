@@ -266,6 +266,7 @@ footer i {
 }
 .gallery {
   background-image: url(../img/gallery/#);
+  background-color: red;
 }
 .services {
   background-image: url(../img/contact/trees-bg-xs.jpg);
@@ -291,6 +292,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
+    background-color: green;
   }
   .services {
     background-image: url(../img/contact/trees-bg-sm.jpg);
@@ -324,6 +326,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
+    background-color: blue;
   }
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
@@ -356,6 +359,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
+    background-color: blueviolet;
   }
   .services {
     background-image: url(../img/contact/trees-bg-lg.jpg);

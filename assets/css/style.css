@@ -50,7 +50,6 @@ header {
   height: 75px;
 }
 
-/* ? can i move these rules to .nav? */
 .menuitem a {
   /* padding: 0; */
   color: #fafafa;
@@ -155,7 +154,7 @@ h3 {
 
 /* -------------------- Services Section */
 
-/* todo: This needs looked at, should there be a link or hover? */
+/* todo: section not complete */
 
 .card-container {
   margin-top: 40px;
@@ -180,21 +179,11 @@ h3 {
   margin-top: 50px;
 }
 
-/* ? Is this needed? */
-/* .card-img-top {
-  height: 100%;
-  object-fit: cover;
-} */
-
 /* -------------------- Contact Section */
 
 .form-container {
   margin-top: 50px;
 }
-
-/* todo: will I need this to MQ font sizes? */
-/* .form-title {
-} */
 
 .btn-submit {
   color: #fafafa;
@@ -258,27 +247,28 @@ footer i {
 }
 
 /* Mobile - xs */
-.home {
-  background-image: url(../img/home/fern-bg-xs.jpg);
-}
-.about {
-  background-image: url(../img/about/vinny-shaw-bg-xs.jpg);
-}
-.gallery {
-  background-image: url(../img/gallery/#);
-  /*todo: for testing */
-  background-color: red;
-}
-.services {
-  background-image: url(../img/contact/trees-bg-xs.jpg);
-}
-.contact {
-  background-image: url(../img/contact/trees-bg-xs.jpg);
+@media screen and (max-width: 575.98px) {
+  .home {
+    background-image: url(../img/home/fern-bg-xs.jpg);
+  }
+  .about {
+    background-image: url(../img/about/vinny-shaw-bg-xs.jpg);
+  }
+  .gallery {
+    background-image: url(../img/gallery/#);
+    /*todo: color for testing */
+    background-color: red;
+  }
+  .services {
+    background-image: url(../img/contact/trees-bg-xs.jpg);
+  }
+  .contact {
+    background-image: url(../img/contact/trees-bg-xs.jpg);
+  }
 }
 
-/* todo: should i remove max widths? */
 /* Landscape - sm */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .home {
     background-image: url(../img/home/fern-bg-sm.jpg);
   }
@@ -294,7 +284,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: for testing */
+    /*todo: color for testing */
     background-color: green;
   }
   .services {
@@ -312,7 +302,7 @@ footer i {
 }
 
 /* Tablet - md */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .home {
     background-image: url(../img/home/fern-bg-md.jpg);
   }
@@ -329,7 +319,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: for testing */
+    /*todo: for color testing */
     background-color: blue;
   }
   .services {
@@ -363,7 +353,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: for testing */
+    /*todo: color for testing */
     background-color: blueviolet;
   }
   .services {

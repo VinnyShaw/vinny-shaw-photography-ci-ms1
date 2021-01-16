@@ -50,6 +50,7 @@ header {
   height: 75px;
 }
 
+/* ? can i move these rules to .nav? */
 .menuitem a {
   /* padding: 0; */
   color: #fafafa;

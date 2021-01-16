@@ -266,6 +266,7 @@ footer i {
 }
 .gallery {
   background-image: url(../img/gallery/#);
+  /*todo: for testing */
   background-color: red;
 }
 .services {
@@ -275,8 +276,9 @@ footer i {
   background-image: url(../img/contact/trees-bg-xs.jpg);
 }
 
+/* todo: should i remove max widths? */
 /* Landscape - sm */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 576px) {
   .home {
     background-image: url(../img/home/fern-bg-sm.jpg);
   }
@@ -292,6 +294,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
+    /*todo: for testing */
     background-color: green;
   }
   .services {
@@ -309,7 +312,7 @@ footer i {
 }
 
 /* Tablet - md */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   .home {
     background-image: url(../img/home/fern-bg-md.jpg);
   }
@@ -326,6 +329,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
+    /*todo: for testing */
     background-color: blue;
   }
   .services {
@@ -359,6 +363,7 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
+    /*todo: for testing */
     background-color: blueviolet;
   }
   .services {

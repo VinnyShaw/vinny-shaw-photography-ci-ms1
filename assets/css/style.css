@@ -155,29 +155,47 @@ h3 {
 
 /* -------------------- Services Section */
 
-/* todo: section not complete */
-
-.card-container {
-  margin-top: 40px;
+.services-container {
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.card {
-  margin: 5px 50px;
-  padding: 0;
-  border: 0;
-  flex-direction: unset;
+.service-option {
+  margin: 5px 0;
 }
 
-.card-body {
-  padding: 0;
-}
-
-.card-title {
+.service-title {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
-  /* font-size: 1rem; */
+  font-size: 1rem;
   color: #fafafa;
-  margin-top: 50px;
+  position: relative;
+  top: 75%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.service-image {
+  background-position: center center;
+  height: 100%;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* todo: need to addmedia queries for larger pics??? */
+.portrait {
+  background-image: url(../img/services/portrait-sm.jpg);
+}
+.product {
+  background-image: url(../img/services/product-sm.jpg);
+}
+.automotive {
+  background-image: url(../img/services/automotive-sm.jpg);
 }
 
 /* -------------------- Contact Section */
@@ -242,7 +260,6 @@ footer i {
 
 .bg-img {
   background-position: center center;
-  /* todo: changed from fixed to scroll */
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,8 +275,6 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: color for testing */
-    background-color: red;
   }
   .services {
     background-image: url(../img/contact/trees-bg-xs.jpg);
@@ -286,8 +301,6 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: color for testing */
-    background-color: green;
   }
   .services {
     background-image: url(../img/contact/trees-bg-sm.jpg);
@@ -321,8 +334,6 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: for color testing */
-    background-color: blue;
   }
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
@@ -355,8 +366,6 @@ footer i {
   }
   .gallery {
     background-image: url(../img/gallery/#);
-    /*todo: color for testing */
-    background-color: blueviolet;
   }
   .services {
     background-image: url(../img/contact/trees-bg-lg.jpg);
@@ -366,5 +375,8 @@ footer i {
   }
   .social-links {
     margin-bottom: 16px;
+  }
+  .bg-img {
+    background-attachment: fixed;
   }
 }

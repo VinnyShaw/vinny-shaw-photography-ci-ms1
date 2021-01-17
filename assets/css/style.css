@@ -242,6 +242,7 @@ footer i {
 
 .bg-img {
   background-position: center center;
+  /* todo: changed from fixed to scroll */
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;

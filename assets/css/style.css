@@ -242,7 +242,7 @@ footer i {
 
 .bg-img {
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
 }

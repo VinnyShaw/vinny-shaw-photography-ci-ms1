@@ -166,6 +166,7 @@ h3 {
 
 .service-option {
   margin: 5px 0;
+  padding: 0 20px;
 }
 
 .service-title {
@@ -199,10 +200,6 @@ h3 {
 }
 
 /* -------------------- Contact Section */
-
-.form-container {
-  /* margin-top: 50px; */
-}
 
 .btn-submit {
   color: #fafafa;
@@ -305,6 +302,9 @@ footer i {
   .services {
     background-image: url(../img/contact/trees-bg-sm.jpg);
   }
+  .services-container {
+    padding: 0 20px;
+  }
   .card {
     margin: 10px;
   }
@@ -329,7 +329,7 @@ footer i {
     background-position-x: 70%;
   }
   .about-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 20px 20px 0 90px;
   }
   .gallery {

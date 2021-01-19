@@ -150,7 +150,7 @@ h3 {
   font-size: 0.7rem;
   font-weight: 300;
   color: #fafafa;
-  margin: 275px 20px 85px 20px;
+  margin: 250px 20px 85px 20px;
 }
 
 /* -------------------- Services Section */
@@ -187,7 +187,7 @@ h3 {
   background-size: cover;
 }
 
-/* todo: need to addmedia queries for larger pics??? */
+/* todo: need to add media queries for larger pics??? */
 .portrait {
   background-image: url(../img/services/portrait-sm.jpg);
 }
@@ -207,7 +207,7 @@ h3 {
 .btn-submit {
   color: #fafafa;
   background-color: #669999;
-  border: #669999;
+  border: #fafafa;
 }
 
 /* -------------------- Footer */
@@ -297,7 +297,7 @@ footer i {
   }
   .about-text {
     font-size: 0.7rem;
-    margin: 20px 20px 0 67px;
+    margin: 20px 20px 0 72px;
   }
   .gallery {
     background-image: url(../img/gallery/#);
@@ -329,8 +329,8 @@ footer i {
     background-position-x: 70%;
   }
   .about-text {
-    font-size: 0.7rem;
-    margin: 20px 20px 0 80px;
+    font-size: 0.8rem;
+    margin: 20px 20px 0 90px;
   }
   .gallery {
     background-image: url(../img/gallery/#);

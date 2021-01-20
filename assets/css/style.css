@@ -317,7 +317,7 @@ footer i {
 }
 
 /* Tablet - md */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   .home {
     background-image: url(../img/home/fern-bg-md.jpg);
   }
@@ -329,7 +329,7 @@ footer i {
     background-position-x: 70%;
   }
   .about-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 20px 20px 0 90px;
   }
   .gallery {
@@ -337,6 +337,51 @@ footer i {
   }
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
+  }
+  .services-container {
+    padding: 0 20px;
+  }
+  .contact {
+    background-image: url(../img/contact/trees-bg-md.jpg);
+  }
+  .form-container {
+    margin-top: 0;
+  }
+  .social-links {
+    margin-bottom: 16px;
+  }
+}
+
+/* Mobile landscape - md */
+@media screen and (min-width: 812px) {
+  .home {
+    background-image: url(../img/home/fern-bg-md.jpg);
+  }
+  .menuitem {
+    padding-top: 20px;
+  }
+  .about {
+    background-image: url(../img/about/vinny-shaw-bg-md.jpg);
+    background-position-x: 70%;
+  }
+  .about-text {
+    font-size: 0.7rem;
+    margin: 20px 20px 0 90px;
+  }
+  .gallery {
+    background-image: url(../img/gallery/#);
+  }
+  .services {
+    background-image: url(../img/contact/trees-bg-md.jpg);
+  }
+  .services-container {
+    height: 70vh;
+  }
+  .portrait {
+    background-position-y: 40%;
+  }
+  .product {
+    background-position-y: 65%;
   }
   .contact {
     background-image: url(../img/contact/trees-bg-md.jpg);
@@ -369,6 +414,9 @@ footer i {
   }
   .services {
     background-image: url(../img/contact/trees-bg-lg.jpg);
+  }
+  .portrait {
+    background-position-x: 75%;
   }
   .contact {
     background-image: url(../img/contact/trees-bg-lg.jpg);

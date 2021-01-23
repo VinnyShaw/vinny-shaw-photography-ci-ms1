@@ -352,6 +352,7 @@ footer i {
   }
 }
 
+/* todo: remove any repeated rules */
 /* Mobile landscape - md */
 @media screen and (min-width: 812px) {
   .home {
@@ -407,7 +408,7 @@ footer i {
   }
   .about-text {
     font-size: 1.3rem;
-    margin: 20px 20px 0 200px;
+    margin: 20px 20px 0 130px;
   }
   .gallery {
     background-image: url(../img/gallery/#);
@@ -423,5 +424,13 @@ footer i {
   }
   .social-links {
     margin-bottom: 16px;
+  }
+}
+
+/* Desktop - lg */
+@media screen and (min-width: 1200px) {
+  .about-text {
+    font-size: 1.3rem;
+    margin: 20px 20px 0 230px;
   }
 }

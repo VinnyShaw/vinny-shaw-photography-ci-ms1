@@ -153,6 +153,36 @@ h3 {
   margin: 250px 20px 85px 20px;
 }
 
+/* todo: edit pics for each media query */
+/* -------------------- Gallery Section */
+
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* todo: Gallery images for smallest screens */
+.gallery-image-1 {
+  background-image: url(../img/about/vinny-shaw-bg-xs.jpg);
+}
+.gallery-image-2 {
+  background-image: url(#);
+}
+.gallery-image-3 {
+  background-image: url(#);
+}
+.gallery-image-4 {
+  background-image: url(#);
+}
+.gallery-image-5 {
+  background-image: url(#);
+}
+.gallery-image-6 {
+  background-image: url(#);
+}
+
 /* -------------------- Services Section */
 
 .services-container {
@@ -299,6 +329,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
+  /* todo: Gallery images */
+  .gallery-image-1 {
+    background-image: url(../img/about/vinny-shaw-bg-sm.jpg);
+  }
+  .gallery-image-2 {
+    background-image: url(#);
+  }
+  .gallery-image-3 {
+    background-image: url(#);
+  }
+  .gallery-image-4 {
+    background-image: url(#);
+  }
+  .gallery-image-5 {
+    background-image: url(#);
+  }
+  .gallery-image-6 {
+    background-image: url(#);
+  }
+  /* todo: Gallery images */
   .services {
     background-image: url(../img/contact/trees-bg-sm.jpg);
   }
@@ -335,6 +385,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
+  /* todo: Gallery images */
+  .gallery-image-1 {
+    background-image: url(#);
+  }
+  .gallery-image-2 {
+    background-image: url(#);
+  }
+  .gallery-image-3 {
+    background-image: url(#);
+  }
+  .gallery-image-4 {
+    background-image: url(#);
+  }
+  .gallery-image-5 {
+    background-image: url(#);
+  }
+  .gallery-image-6 {
+    background-image: url(#);
+  }
+  /* todo: Gallery images */
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
   }
@@ -372,6 +442,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
+  /* todo: Gallery images */
+  .gallery-image-1 {
+    background-image: url(#);
+  }
+  .gallery-image-2 {
+    background-image: url(#);
+  }
+  .gallery-image-3 {
+    background-image: url(#);
+  }
+  .gallery-image-4 {
+    background-image: url(#);
+  }
+  .gallery-image-5 {
+    background-image: url(#);
+  }
+  .gallery-image-6 {
+    background-image: url(#);
+  }
+  /* todo: Gallery images */
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
   }
@@ -413,6 +503,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
+  /* todo: Gallery images */
+  .gallery-image-1 {
+    background-image: url(#);
+  }
+  .gallery-image-2 {
+    background-image: url(#);
+  }
+  .gallery-image-3 {
+    background-image: url(#);
+  }
+  .gallery-image-4 {
+    background-image: url(#);
+  }
+  .gallery-image-5 {
+    background-image: url(#);
+  }
+  .gallery-image-6 {
+    background-image: url(#);
+  }
+  /* todo: Gallery images */
   .services {
     background-image: url(../img/contact/trees-bg-lg.jpg);
   }
@@ -427,7 +537,7 @@ footer i {
   }
 }
 
-/* Desktop - lg */
+/* Desktop - xl */
 @media screen and (min-width: 1200px) {
   .about-text {
     font-size: 1.3rem;

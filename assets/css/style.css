@@ -175,24 +175,23 @@ h3 {
   margin-bottom: 50px;
 }
 
-/* todo: Gallery images for smallest screens */
 .gallery-image-1 {
-  background-image: url(../img/about/vinny-shaw-bg-xs.jpg);
+  background-image: url(../img/gallery/kirsten/kirsten-xs.jpg);
 }
 .gallery-image-2 {
-  background-image: url(#);
+  background-image: url(../img/gallery/boots/boots-xs.jpg);
 }
 .gallery-image-3 {
-  background-image: url(#);
+  background-image: url(../img/gallery/sunglasses/sunglasses-xs.jpg);
 }
 .gallery-image-4 {
-  background-image: url(#);
+  background-image: url(../img/gallery/mustang/mustang-xs.jpg);
 }
 .gallery-image-5 {
-  background-image: url(#);
+  background-image: url(../img/gallery/logs-in-snow/logs-in-snow-xs.jpg);
 }
 .gallery-image-6 {
-  background-image: url(#);
+  background-image: url(../img/gallery/snowy-horizon/snowy-horizon-xs.jpg);
 }
 
 /* *-------------------- Services Section */
@@ -347,26 +346,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
-  /* todo: Gallery images */
+  /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(../img/about/vinny-shaw-bg-sm.jpg);
+    background-image: url(../img/gallery/kirsten/kirsten-sm.jpg);
   }
   .gallery-image-2 {
-    background-image: url(#);
+    background-image: url(../img/gallery/boots/boots-sm.jpg);
   }
   .gallery-image-3 {
-    background-image: url(#);
+    background-image: url(../img/gallery/sunglasses/sunglasses-sm.jpg);
   }
   .gallery-image-4 {
-    background-image: url(#);
+    background-image: url(../img/gallery/mustang/mustang-sm.jpg);
   }
   .gallery-image-5 {
-    background-image: url(#);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-sm.jpg);
   }
   .gallery-image-6 {
-    background-image: url(#);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-sm.jpg);
   }
-  /* todo: Gallery images */
+  /* * Gallery Carousel Images */
   .services {
     background-image: url(../img/contact/trees-bg-sm.jpg);
   }
@@ -407,26 +406,28 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
-  /* todo: Gallery images */
+  /* todo: Fix Gallery images */
+  /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(#);
+    background-image: url(../img/gallery/kirsten/kirsten-xs.jpg);
   }
   .gallery-image-2 {
-    background-image: url(#);
+    background-image: url(../img/gallery/boots/boots-xs.jpg);
   }
   .gallery-image-3 {
-    background-image: url(#);
+    background-image: url(../img/gallery/sunglasses/sunglasses-xs.jpg);
   }
   .gallery-image-4 {
-    background-image: url(#);
+    background-image: url(../img/gallery/mustang/mustang-xs.jpg);
   }
   .gallery-image-5 {
-    background-image: url(#);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-xs.jpg);
   }
   .gallery-image-6 {
-    background-image: url(#);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-xs.jpg);
   }
-  /* todo: Gallery images */
+  /* * Gallery Carousel Images */
+  /* todo: Fix Gallery images */
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
   }
@@ -471,26 +472,28 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
-  /* todo: Gallery images */
+  /* todo: Fix Gallery images */
+  /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(#);
+    background-image: url(../img/gallery/kirsten/kirsten-md.jpg);
   }
   .gallery-image-2 {
-    background-image: url(#);
+    background-image: url(../img/gallery/boots/boots-md.jpg);
   }
   .gallery-image-3 {
-    background-image: url(#);
+    background-image: url(../img/gallery/sunglasses/sunglasses-md.jpg);
   }
   .gallery-image-4 {
-    background-image: url(#);
+    background-image: url(../img/gallery/mustang/mustang-md.jpg);
   }
   .gallery-image-5 {
-    background-image: url(#);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-md.jpg);
   }
   .gallery-image-6 {
-    background-image: url(#);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-md.jpg);
   }
-  /* todo: Gallery images */
+  /* * Gallery Carousel Images */
+  /* todo: Fix Gallery images */
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
   }
@@ -535,26 +538,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
-  /* todo: Gallery images */
+  /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(#);
+    background-image: url(../img/gallery/kirsten/kirsten-lg.jpg);
   }
   .gallery-image-2 {
-    background-image: url(#);
+    background-image: url(../img/gallery/boots/boots-lg.jpg);
   }
   .gallery-image-3 {
-    background-image: url(#);
+    background-image: url(../img/gallery/sunglasses/sunglasses-lg.jpg);
   }
   .gallery-image-4 {
-    background-image: url(#);
+    background-image: url(../img/gallery/mustang/mustang-lg.jpg);
   }
   .gallery-image-5 {
-    background-image: url(#);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-lg.jpg);
   }
   .gallery-image-6 {
-    background-image: url(#);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-lg.jpg);
   }
-  /* todo: Gallery images */
+  /* * Gallery Carousel Images */
   .services {
     background-image: url(../img/contact/trees-bg-lg.jpg);
   }

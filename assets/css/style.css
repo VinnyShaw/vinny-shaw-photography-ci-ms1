@@ -348,24 +348,24 @@ footer i {
   }
   /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(../img/gallery/kirsten/kirsten-sm.jpg);
+    background-image: url(../img/gallery/kirsten/kirsten-md.jpg);
   }
   .gallery-image-2 {
-    background-image: url(../img/gallery/boots/boots-sm.jpg);
+    background-image: url(../img/gallery/boots/boots-md.jpg);
   }
   .gallery-image-3 {
-    background-image: url(../img/gallery/sunglasses/sunglasses-sm.jpg);
+    background-image: url(../img/gallery/sunglasses/sunglasses-md.jpg);
   }
   .gallery-image-4 {
-    background-image: url(../img/gallery/mustang/mustang-sm.jpg);
+    background-image: url(../img/gallery/mustang/mustang-md.jpg);
   }
   .gallery-image-5 {
-    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-sm.jpg);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-md.jpg);
   }
   .gallery-image-6 {
-    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-sm.jpg);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-md.jpg);
   }
-  /* * Gallery Carousel Images */
+  /* * /Gallery Carousel Images */
   .services {
     background-image: url(../img/contact/trees-bg-sm.jpg);
   }
@@ -406,28 +406,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
-  /* todo: Fix Gallery images */
   /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(../img/gallery/kirsten/kirsten-xs.jpg);
+    background-image: url(../img/gallery/kirsten/kirsten-md-port.jpg);
   }
   .gallery-image-2 {
-    background-image: url(../img/gallery/boots/boots-xs.jpg);
+    background-image: url(../img/gallery/boots/boots-md-port.jpg);
   }
   .gallery-image-3 {
-    background-image: url(../img/gallery/sunglasses/sunglasses-xs.jpg);
+    background-image: url(../img/gallery/sunglasses/sunglasses-md-port.jpg);
   }
   .gallery-image-4 {
-    background-image: url(../img/gallery/mustang/mustang-xs.jpg);
+    background-image: url(../img/gallery/mustang/mustang-md-port.jpg);
   }
   .gallery-image-5 {
-    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-xs.jpg);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-md-port.jpg);
   }
   .gallery-image-6 {
-    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-xs.jpg);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-md-port.jpg);
   }
-  /* * Gallery Carousel Images */
-  /* todo: Fix Gallery images */
+  /* * /Gallery Carousel Images */
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
   }
@@ -472,28 +470,26 @@ footer i {
   .gallery {
     background-image: url(../img/gallery/#);
   }
-  /* todo: Fix Gallery images */
   /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(../img/gallery/kirsten/kirsten-md.jpg);
+    background-image: url(../img/gallery/kirsten/kirsten-lg.jpg);
   }
   .gallery-image-2 {
-    background-image: url(../img/gallery/boots/boots-md.jpg);
+    background-image: url(../img/gallery/boots/boots-lg.jpg);
   }
   .gallery-image-3 {
-    background-image: url(../img/gallery/sunglasses/sunglasses-md.jpg);
+    background-image: url(../img/gallery/sunglasses/sunglasses-lg.jpg);
   }
   .gallery-image-4 {
-    background-image: url(../img/gallery/mustang/mustang-md.jpg);
+    background-image: url(../img/gallery/mustang/mustang-lg.jpg);
   }
   .gallery-image-5 {
-    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-md.jpg);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-lg.jpg);
   }
   .gallery-image-6 {
-    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-md.jpg);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-lg.jpg);
   }
-  /* * Gallery Carousel Images */
-  /* todo: Fix Gallery images */
+  /* * /Gallery Carousel Images */
   .services {
     background-image: url(../img/contact/trees-bg-md.jpg);
   }
@@ -557,7 +553,7 @@ footer i {
   .gallery-image-6 {
     background-image: url(../img/gallery/snowy-horizon/snowy-horizon-lg.jpg);
   }
-  /* * Gallery Carousel Images */
+  /* * /Gallery Carousel Images */
   .services {
     background-image: url(../img/contact/trees-bg-lg.jpg);
   }

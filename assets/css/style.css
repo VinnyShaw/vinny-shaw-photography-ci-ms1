@@ -165,7 +165,7 @@ h3 {
   height: 100vh;
 }
 
-.carousel-caption h5 {
+.carousel-caption h4 {
   font-family: "Work Sans", sans-serif;
   font-size: 2rem;
   font-weight: 300;
@@ -248,8 +248,12 @@ h3 {
 
 .btn-submit {
   color: #fafafa;
-  background-color: #669999;
+  background-color: #145050;
   border: #fafafa;
+}
+
+.btn-submit:hover {
+  background-color: #669999;
 }
 
 /* *-------------------- Footer */

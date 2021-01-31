@@ -576,4 +576,24 @@ footer i {
     -ms-transform: translateY(-40%);
     transform: translateY(-40%);
   }
+  /* * Gallery Carousel Images */
+  .gallery-image-1 {
+    background-image: url(../img/gallery/kirsten/kirsten-xl.jpg);
+  }
+  .gallery-image-2 {
+    background-image: url(../img/gallery/boots/boots-xl.jpg);
+  }
+  .gallery-image-3 {
+    background-image: url(../img/gallery/sunglasses/sunglasses-xl.jpg);
+  }
+  .gallery-image-4 {
+    background-image: url(../img/gallery/mustang/mustang-xl.jpg);
+  }
+  .gallery-image-5 {
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-xl.jpg);
+  }
+  .gallery-image-6 {
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-xl.jpg);
+  }
+  /* * /Gallery Carousel Images */
 }

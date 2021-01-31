@@ -80,8 +80,12 @@
     <div id="home" class="row home bg-img section-container">
       <div class="col-sm-6 section-text centered landing-title">
         <a href="#about">
-          <h1 class="text-uppercase text-center scroll-fade">VINNY ✵ SHAW</h1>
-          <h2 class="text-uppercase text-center scroll-fade">Photography</h2>
+          <h1 class="text-uppercase text-center scroll-fade appear">
+            VINNY ✵ SHAW
+          </h1>
+          <h2 class="text-uppercase text-center scroll-fade appear">
+            Photography
+          </h2>
         </a>
       </div>
     </div>
@@ -93,19 +97,26 @@
           class="col col-sm-6 col-md-6 col-lg-6 col-xl-6 text-left about-text"
         >
           <!-- <h1 class="text-uppercase d-none d-lg-inline-block">Vinny</h1> -->
-          <p class="scroll-fade">
-            Having spent the best part of 20 years working and touring as a
-            Concert Lighting Designer, playing with shape, colour and movement,
-            I began developing a strong urge to capture moments of light, as
-            well as create them. Whilst I greatly enjoy travelling and
-            experiencing other cities and countries, a large amount of my career
-            has been spent in busy, crowded environments. As a result, the need
-            to explore the calmer, peaceful places of nature has grown for
-            me.<br />In a strange twist of fate, just before the Covid Pandemic
-            hit, I relocated back to the Highlands of Scotland, where I grew up.
-            This has given me easy access to a vast playground of wilderness and
-            scenery right on my doorstep, where I can continue to capture the
-            compositions that catch my eye.
+          <p>
+            <span class="scroll-fade scroll-appear">
+              Having spent the best part of 20 years working and touring as a
+              Concert Lighting Designer, playing with shape, colour and
+              movement, I began developing a strong urge to capture moments of
+              light, as well as create them.</span
+            >
+            <span class="scroll-fade scroll-appear"
+              >I greatly enjoy travelling and experiencing other cities and
+              countries, a large amount of my career has been spent in busy,
+              crowded environments. As a result, the need to explore the calmer,
+              peaceful places of nature has grown for me.
+            </span>
+            <span class="scroll-fade scroll-appear"
+              >In a strange twist of fate, just before the Covid Pandemic hit, I
+              relocated back to the Highlands of Scotland, where I grew up. This
+              has given me easy access to a vast playground of wilderness and
+              scenery right on my doorstep, where I can continue to capture the
+              compositions that catch my eye.
+            </span>
           </p>
         </div>
       </div>
@@ -194,7 +205,8 @@
           <!-- Portrait -->
           <div class="col-sm-4 col-md-8 col-lg-4 col-xl-4 service-option">
             <div class="service-image portrait img-fluid rounded">
-              <span class="service-title text-uppercase scroll-fade"
+              <span
+                class="service-title text-uppercase scroll-fade scroll-appear"
                 >Portrait</span
               >
             </div>
@@ -203,7 +215,8 @@
           <!-- Product -->
           <div class="col-sm-4 col-md-8 col-lg-5 col-xl-5 service-option">
             <div class="service-image product img-fluid rounded">
-              <span class="service-title text-uppercase scroll-fade"
+              <span
+                class="service-title text-uppercase scroll-fade scroll-appear"
                 >Product</span
               >
             </div>
@@ -212,7 +225,8 @@
           <!-- Automotive -->
           <div class="col-sm-4 col-md-8 col-lg-9 col-xl-9 service-option">
             <div class="service-image automotive img-fluid rounded">
-              <span class="service-title text-uppercase scroll-fade"
+              <span
+                class="service-title text-uppercase scroll-fade scroll-appear"
                 >Automotive</span
               >
             </div>
@@ -372,12 +386,13 @@
     </footer>
 
     <!-- Script -->
+
     <!-- Script to fade content on scroll opacity as reaches header -->
     <!-- https://stackoverflow.com/questions/42949293/fade-elements-as-they-reach-the-top-of-the-page -->
     <script>
       $(window).scroll(function () {
         // Setting: Start fading halfway up the page
-        var startPos = 0.3;
+        var startPos = 0.4;
 
         // Cache window object
         var $w = $(window);
@@ -398,6 +413,34 @@
           }
         });
       });
+    </script>
+    <!-- Testing -->
+    <!-- Script to fade content on scroll opacity as reaches header -->
+    <!-- todo: make this fade in not pop in -->
+    <script>
+      // $(window).scroll(function () {
+      //   // Setting: Start fading halfway up the page
+      //   var startPos = 0.8;
+
+      //   // Cache window object
+      //   var $w = $(window);
+
+      //   // Basically, we go through each element and check its relative position within the viewport
+      //   $(".scroll-appear").each(function () {
+      //     // Get current relative position in viewport, based on the top edge
+      //     var pos = $(this).offset().top - $w.scrollTop();
+
+      //     // Get viewport height
+      //     var vh = $w.height();
+
+      //     if (pos < vh * startPos) {
+      //       // If element has past the starting threshold, we fade it
+      //       $(this).css("opacity", (pos / (vh * startPos)) * 1);
+      //     } else {
+      //       $(this).css("opacity", 0);
+      //     }
+      //   });
+      // });
     </script>
   </body>
 </html>

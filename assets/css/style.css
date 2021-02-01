@@ -16,6 +16,14 @@ body {
   color: #fafafa;
 }
 
+a {
+  color: #fafafa;
+}
+
+a:hover {
+  color: #669999;
+}
+
 /* *-------------------- Header */
 
 header {
@@ -24,9 +32,8 @@ header {
 }
 
 /* *-------------------- Logo */
-/* todo: font size in rem? */
 .logo {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .logo-container a {
@@ -35,15 +42,15 @@ header {
 
 .logo a {
   text-decoration: none;
-  color: #fafafa;
   transition: color 0.35s ease-in-out;
   -moz-transition: color 0.35s ease-in-out;
   -webkit-transition: color 0.35s ease-in-out;
   -o-transition: color 0.35s ease-in-out;
 }
 
+/* ? Is this needed? */
 .logo a:hover {
-  color: #669999;
+  /* color: #669999; */
 }
 
 /* *-------------------- Navigation */
@@ -57,7 +64,6 @@ header {
 }
 
 .menuitem a {
-  color: #fafafa;
   text-decoration: none;
   transition: color 0.35s ease-in-out;
   -moz-transition: color 0.35s ease-in-out;
@@ -65,8 +71,9 @@ header {
   -o-transition: color 0.35s ease-in-out;
 }
 
+/* ? Is this needed? */
 .menuitem a:hover {
-  color: #669999;
+  /* color: #669999; */
 }
 
 .nav-link {
@@ -77,7 +84,7 @@ header {
   margin: 0;
 }
 
-/* ? do I still need this? */
+/* ? Is this needed? */
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
@@ -278,7 +285,6 @@ footer i {
 
 .social-links li a i {
   padding: 5px;
-  color: #fafafa;
   transition: color 0.35s ease-in-out;
   -moz-transition: color 0.35s ease-in-out;
   -webkit-transition: color 0.35s ease-in-out;
@@ -563,7 +569,7 @@ footer i {
 @media screen and (min-width: 1200px) {
   .about-text {
     font-size: 1.5rem;
-    margin: 150px 20px 0 190px;
+    margin: 150px 20px 0 275px;
   }
   .service-title {
     font-size: 5rem;

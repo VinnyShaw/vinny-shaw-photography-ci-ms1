@@ -49,9 +49,9 @@ header {
 }
 
 /* ? Is this needed? */
-.logo a:hover {
-  /* color: #669999; */
-}
+/* .logo a:hover {
+  color: #669999;
+} */
 
 /* *-------------------- Navigation */
 
@@ -72,9 +72,9 @@ header {
 }
 
 /* ? Is this needed? */
-.menuitem a:hover {
-  /* color: #669999; */
-}
+/* .menuitem a:hover {
+  color: #669999;
+} */
 
 .nav-link {
   width: 75px;

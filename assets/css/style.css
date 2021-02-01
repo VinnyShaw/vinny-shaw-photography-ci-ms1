@@ -8,6 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* *-------------------- Body */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
 /* *-------------------- Header */
 
 header {
@@ -16,16 +24,13 @@ header {
 }
 
 /* *-------------------- Logo */
-
+/* todo: font size in rem? */
 .logo {
-  font-family: "Work Sans", sans-serif;
   font-size: 50px;
-  font-weight: 300;
 }
 
 .logo-container a {
   text-decoration: none;
-  color: #fafafa;
 }
 
 .logo a {
@@ -44,7 +49,6 @@ header {
 /* *-------------------- Navigation */
 
 .nav li {
-  font-family: "Work Sans", sans-serif;
   font-size: 1rem;
 }
 
@@ -52,9 +56,7 @@ header {
   height: 75px;
 }
 
-/* ? can i move these rules to .nav? */
 .menuitem a {
-  /* padding: 0; */
   color: #fafafa;
   text-decoration: none;
   transition: color 0.35s ease-in-out;
@@ -75,6 +77,7 @@ header {
   margin: 0;
 }
 
+/* ? do I still need this? */
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
@@ -82,9 +85,6 @@ header {
 /* *-------------------- Sections */
 
 .section-text {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-  color: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -94,9 +94,6 @@ header {
 
 .section-text h1,
 h2 {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-  color: #fafafa;
   text-decoration: none;
 }
 
@@ -110,7 +107,6 @@ h2 {
   height: 100vh;
   position: relative;
   text-align: center;
-  color: #fafafa;
   margin: 0;
   padding: 0;
 }
@@ -126,8 +122,7 @@ h2 {
 
 .landing-title a,
 h1,
-h3 {
-  font-family: "Work Sans", sans-serif;
+h2 {
   font-weight: 300;
   text-decoration: none;
   color: #fafafa;
@@ -141,17 +136,14 @@ h3 {
   color: #669999;
 }
 
-.landing-title h3:hover {
+.landing-title h2:hover {
   color: #669999;
 }
 
 /* *-------------------- About Section */
 
 .about-text {
-  font-family: "Work Sans", sans-serif;
   font-size: 0.8rem;
-  font-weight: 300;
-  color: #fafafa;
   margin: 250px 20px 85px 20px;
 }
 
@@ -163,14 +155,6 @@ h3 {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-}
-
-.carousel-caption h3 {
-  font-family: "Work Sans", sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-  color: rgba(250, 250, 250, 0.5);
-  margin-bottom: 50px;
 }
 
 .gallery-image-1 {
@@ -200,6 +184,9 @@ h3 {
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -209,13 +196,15 @@ h3 {
 }
 
 .service-title {
-  font-family: "Work Sans", sans-serif;
   font-weight: 100;
   font-size: 3rem;
-  color: rgba(250, 250, 250, 0.5);
+  color: rgba(250, 250, 250, 0.6);
   position: relative;
   top: 25%;
   -ms-transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
   transform: translateY(-25%);
 }
 
@@ -240,7 +229,6 @@ h3 {
 /* *-------------------- Contact Section */
 
 .form-title {
-  font-family: "Work Sans", sans-serif;
   font-weight: 100;
   font-size: 4rem;
   color: rgba(250, 250, 250, 1);
@@ -273,7 +261,6 @@ footer i {
 
 .contact-link a i,
 .talk {
-  color: #fafafa;
   transition: color 0.35s ease-in-out;
   -moz-transition: color 0.35s ease-in-out;
   -webkit-transition: color 0.35s ease-in-out;
@@ -373,6 +360,9 @@ footer i {
     position: relative;
     top: 45%;
     -ms-transform: translateY(-45%);
+    -webkit-transform: translateY(-45%);
+    -moz-transform: translateY(-45%);
+    -o-transform: translateY(-45%);
     transform: translateY(-45%);
   }
   .contact {
@@ -430,6 +420,9 @@ footer i {
     position: relative;
     top: 25%;
     -ms-transform: translateY(-25%);
+    -webkit-transform: translateY(-25%);
+    -moz-transform: translateY(-25%);
+    -o-transform: translateY(-25%);
     transform: translateY(-25%);
   }
   .contact {
@@ -463,22 +456,22 @@ footer i {
   /* todo: Fix image position or edit crops */
   /* * Gallery Carousel Images */
   .gallery-image-1 {
-    background-image: url(../img/gallery/kirsten/kirsten-lg.jpg);
+    background-image: url(../img/gallery/kirsten/kirsten-md.jpg);
   }
   .gallery-image-2 {
-    background-image: url(../img/gallery/boots/boots-lg.jpg);
+    background-image: url(../img/gallery/boots/boots-md.jpg);
   }
   .gallery-image-3 {
-    background-image: url(../img/gallery/sunglasses/sunglasses-lg.jpg);
+    background-image: url(../img/gallery/sunglasses/sunglasses-md.jpg);
   }
   .gallery-image-4 {
-    background-image: url(../img/gallery/mustang/mustang-lg.jpg);
+    background-image: url(../img/gallery/mustang/mustang-md.jpg);
   }
   .gallery-image-5 {
-    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-lg.jpg);
+    background-image: url(../img/gallery/logs-in-snow/logs-in-snow-md.jpg);
   }
   .gallery-image-6 {
-    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-lg.jpg);
+    background-image: url(../img/gallery/snowy-horizon/snowy-horizon-md.jpg);
   }
   /* * /Gallery Carousel Images */
   .services {
@@ -519,8 +512,8 @@ footer i {
     background-image: url(../img/about/vinny-shaw-bg-lg.jpg);
   }
   .about-text {
-    font-size: 1.3rem;
-    margin: 20px 20px 0 130px;
+    font-size: 1.2rem;
+    margin: 180px 20px 0 130px;
   }
   /* * Gallery Carousel Images */
   .gallery-image-1 {
@@ -550,6 +543,9 @@ footer i {
     position: relative;
     top: 40%;
     -ms-transform: translateY(-40%);
+    -webkit-transform: translateY(-40%);
+    -moz-transform: translateY(-40%);
+    -o-transform: translateY(-40%);
     transform: translateY(-40%);
   }
   .portrait {
@@ -566,14 +562,17 @@ footer i {
 /* * Desktop - xl */
 @media screen and (min-width: 1200px) {
   .about-text {
-    font-size: 1.3rem;
-    margin: 20px 20px 0 230px;
+    font-size: 1.5rem;
+    margin: 150px 20px 0 190px;
   }
   .service-title {
     font-size: 5rem;
     position: relative;
     top: 40%;
     -ms-transform: translateY(-40%);
+    -webkit-transform: translateY(-40%);
+    -moz-transform: translateY(-40%);
+    -o-transform: translateY(-40%);
     transform: translateY(-40%);
   }
   /* * Gallery Carousel Images */

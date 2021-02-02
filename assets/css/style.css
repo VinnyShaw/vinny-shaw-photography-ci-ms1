@@ -55,10 +55,6 @@ header {
 
 /* *-------------------- Navigation */
 
-.nav li {
-  font-size: 1rem;
-}
-
 .menuitem {
   height: 75px;
 }
@@ -126,7 +122,7 @@ h2 {
 }
 
 /* *-------------------- Home Section */
-
+/* todo: simplify classes here */
 .landing-title a,
 h1,
 h2 {
@@ -150,11 +146,10 @@ h2 {
 /* *-------------------- About Section */
 
 .about-text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin: 250px 20px 85px 20px;
 }
 
-/* todo: edit pics for each media query */
 /* *-------------------- Gallery Section */
 
 .carousel-item {
@@ -334,7 +329,6 @@ footer i {
     background-image: url(../img/about/vinny-shaw-bg-sm.jpg);
   }
   .about-text {
-    font-size: 0.7rem;
     margin: 110px 20px 0 72px;
   }
   /* * Gallery Carousel Images */

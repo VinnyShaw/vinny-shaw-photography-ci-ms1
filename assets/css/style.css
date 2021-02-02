@@ -18,10 +18,15 @@ body {
 
 a {
   color: #fafafa;
+  transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
 }
 
 a:hover {
   color: #669999;
+  text-decoration: none;
 }
 
 /* *-------------------- Header */
@@ -36,41 +41,11 @@ header {
   font-size: 3.125rem;
 }
 
-.logo-container a {
-  text-decoration: none;
-}
-
-.logo a {
-  text-decoration: none;
-  transition: color 0.35s ease-in-out;
-  -moz-transition: color 0.35s ease-in-out;
-  -webkit-transition: color 0.35s ease-in-out;
-  -o-transition: color 0.35s ease-in-out;
-}
-
-/* ? Is this needed? */
-/* .logo a:hover {
-  color: #669999;
-} */
-
 /* *-------------------- Navigation */
 
 .menuitem {
   height: 75px;
 }
-
-.menuitem a {
-  text-decoration: none;
-  transition: color 0.35s ease-in-out;
-  -moz-transition: color 0.35s ease-in-out;
-  -webkit-transition: color 0.35s ease-in-out;
-  -o-transition: color 0.35s ease-in-out;
-}
-
-/* ? Is this needed? */
-/* .menuitem a:hover {
-  color: #669999;
-} */
 
 .nav-link {
   width: 75px;
@@ -93,17 +68,6 @@ header {
   top: 50%;
   width: 100%;
   text-align: center;
-}
-
-.section-text h1,
-h2 {
-  text-decoration: none;
-}
-
-.container {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  height: 100%;
 }
 
 .section-container {
@@ -218,7 +182,7 @@ h2 {
   background-size: cover;
 }
 
-/* todo: need to add media queries for larger pics??? */
+/* * Services Images */
 .portrait {
   background-image: url(../img/services/portrait-sm.jpg);
 }
@@ -493,9 +457,6 @@ footer i {
   }
   .contact {
     background-image: url(../img/contact/trees-bg-md.jpg);
-  }
-  .form-container {
-    margin-top: 0;
   }
   .social-links {
     margin-bottom: 16px;

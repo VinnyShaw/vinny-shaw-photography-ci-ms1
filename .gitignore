@@ -4,7 +4,6 @@ core.python*
 env.py
 __pycache__/
 *.py[cod]
-index-v3.html
 stle-clipboard.css
 style-clipboard.css
 .DS_Store

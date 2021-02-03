@@ -1,23 +1,41 @@
-# Vinny Shaw Photography - CI - MS1
+![Vinny Shaw Logo](assets/img/vs-favicon-white.png "Vinny Shaw Logo")
 
-![Vinny Shaw Logo](img/vs-favicon-white.png "Vinny Shaw Logo")
+# VINNY SHAW PHOTOGRAPHY
 
-Welcome to my Code Institute MS1 Project.
+Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development
 
 The website is designed to be the online hub for the business **Vinny Shaw Photography**, to showcase their work, promote the services they offer and provide information for new and existing clients to easily contact them.
 
-## UX
+![Responsive site demo](assets/wireframes/vs-photography-responsive-demo.png "Responsive site demo")
+
+## [Click to visit live demo site](https://vinnyshaw.github.io/vinny-shaw-photography-ci-ms1/#home)
+
+## Table of contents
+
+- [User Experience](...)
+- [Features](...)
+- [Technologies used](...)
+- [Testing](...)
+- [Deployment](...)
+- [Credits](...)
+
+## User Experience
 
 The aim of this website is to present the skills, services, work examples and contact information of the owner, in a clear and stylish manner.
 
 Simple, minimal font styles and text placement allow the user to easily navigate the content and information, while experiencing a full-page presentation of the owners work throughout.
 
-- Wire frames
-  - [Landing/Home](wireframes/)
-  - [About](wireframes/)
-  - [Gallery](wireframes/)
-  - [Service](wireframes/)
-  - [Contact](wireframes/)
+- Wireframes
+
+  - [Mobile](assets/wireframes/6-mobile-wire.png)
+  - [Desktop Home](assets/wireframes/1-desktop-index-wire.png)
+  - [Desktop About](assets/wireframes/2-desktop-about-wire.png)
+  - [Desktop Gallery](assets/wireframes/3-desktop-gallery-wire.png)
+  - [Desktop Service](assets/wireframes/4-desktop-services-wire.png)
+  - [Desktop Contact](assets/wireframes/5-desktop-contact-wire.png)
+
+- Desktop mock
+  - [Home Mockup](assets/wireframes/8-desktop-index-mock.png)
 
 ## Features
 
@@ -36,20 +54,34 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 
 ## Technologies Used
 
-- [HTML](wireframes/)
+- [HTML5](.../)
   - The basic construction of the site...
-- [CSS](wireframes/)
+- [CSS3](.../)
   - The styling of the site...
-- [Javascript](wireframes/)
+- [Javascript](.../)
   - A script has been used to fade out the opacity of section text before it clashes with transparent header as the user scrolls.
-- [Bootstrap](wireframes/)
+- [Bootstrap V4.5.3](.../)
   - The site was developed using the **Bootstrap** CSS Framework for a mobile-first responsive design.
-- [Font Awesome](wireframes/)
+- [Font Awesome](.../)
   - Ready made, customizable icons from **Font Awesome** have been used for the Contact and Social Media links.
-- [Google Fonts](wireframes/)
+- [Google Fonts](.../)
   - The font _Work Sans_ from **Google Fonts** has been used to aid the minimal typography style choice of the design.
+- [TinyPNG](.../)
+- [Adobe Photoshop](.../)
+- [Balsamiq](.../)
+- [GitPod](.../)
+- [GitHub](.../)
+- [VS Code](.../)
 
 ## Testing
+
+- [Google Dev Tools](.../)
+- [Lighthouse](.../)
+- [CSS Lint](.../)
+- [Am I Responsive](.../)
+- [DiffChecker](.../)
+- [W3C HTML Validator](.../)
+- [Jigsaw CSS Validator](.../)
 
 1. Contact form:
 
@@ -58,6 +90,8 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 3. Social Media Links:
 
 ## Deployment
+
+- GitHub Pages
 
 ## Credits
 
@@ -72,3 +106,5 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 ### Acknowledgements
 
 - I would like to thank...
+  - Narender
+  - Igor

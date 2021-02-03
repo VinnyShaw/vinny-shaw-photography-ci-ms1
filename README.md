@@ -14,11 +14,11 @@ The website is designed to be the online hub for the business **Vinny Shaw Photo
 
 - [User Experience](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#user-experience)
 
-- [Features](...)
-- [Technologies used](...)
-- [Testing](...)
-- [Deployment](...)
-- [Credits](...)
+- [Features](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#features)
+- [Technologies Used](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#technologies-used)
+- [Testing](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#testing)
+- [Deployment](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#deployment)
+- [Credits](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#credits)
 
 ## User Experience
 

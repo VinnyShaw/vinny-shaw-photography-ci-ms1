@@ -28,6 +28,8 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 
 - Wireframes
 
+  ![Desktop Home](assets/wireframes/1-desktop-index-wire.png)
+
   - [Mobile](assets/wireframes/6-mobile-wire.png)
   - [Desktop Home](assets/wireframes/1-desktop-index-wire.png)
   - [Desktop About](assets/wireframes/2-desktop-about-wire.png)
@@ -59,7 +61,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
   - The basic level elements of the site are built using this markup language.
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
   - The custom styling and responsive media queries are written in CSS.
-- [Javascript](https://www.javascript.com)
+- [JQuery](https://jquery.com)
   - A script has been used to aid the minimal design by fading out the opacity of section text, to avoid any clashes with the navigation menu in the transparent header, as the user scrolls.
   - [Script credit](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#credis)
 - [Bootstrap V4.5.3](https://getbootstrap.com)

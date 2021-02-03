@@ -26,19 +26,35 @@ The aim of this website is to present the skills, services, work examples and co
 
 Simple, minimal font styles and text placement allow the user to easily navigate the content and information, while experiencing a full-page presentation of the owners work throughout.
 
-- Wireframes
+### Wireframes
 
-  ![Desktop Home](assets/wireframes/1-desktop-index-wire.png)
+#### Mobile/Tablet/Desktop
 
-  - [Mobile](assets/wireframes/6-mobile-wire.png)
-  - [Desktop Home](assets/wireframes/1-desktop-index-wire.png)
-  - [Desktop About](assets/wireframes/2-desktop-about-wire.png)
-  - [Desktop Gallery](assets/wireframes/3-desktop-gallery-wire.png)
-  - [Desktop Service](assets/wireframes/4-desktop-services-wire.png)
-  - [Desktop Contact](assets/wireframes/5-desktop-contact-wire.png)
+![Home Mockup](assets/wireframes/7-all-screens-wire.png)
 
-- Desktop mockup
-  - [Home Mockup](assets/wireframes/8-desktop-index-mock.png)
+#### Mobile
+
+![Mobile](assets/wireframes/6-mobile-wire.png)
+
+#### Desktop
+
+![Desktop Home](assets/wireframes/1-desktop-index-wire.png)
+![Desktop About](assets/wireframes/2-desktop-about-wire.png)
+![Desktop Gallery](assets/wireframes/3-desktop-gallery-wire.png)
+![Desktop Service](assets/wireframes/4-desktop-services-wire.png)
+![Desktop Contact](assets/wireframes/5-desktop-contact-wire.png)
+
+#### Desktop Mockup
+
+![Home Mockup](assets/wireframes/8-desktop-index-mock.png)
+
+#### Design implementation alterations
+
+- **Home navigation** - button hidden on smaller screens for a cleaner look.
+- **Lets Talk** - contact link hidden on smaller screens for a cleaner look.
+- **Lets Talk** - form title hidden on smaller screens for a cleaner look.
+- **Gallery** - Bootstrap carousel used across all screen sizes and devices.
+- **Services** - Design changed from Bootstrap cards to a simpler image and title format.
 
 ## Features
 

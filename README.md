@@ -12,7 +12,8 @@ The website is designed to be the online hub for the business **Vinny Shaw Photo
 
 ## Table of contents
 
-- [User Experience](...)
+- [User Experience](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#user-experience)
+
 - [Features](...)
 - [Technologies used](...)
 - [Testing](...)

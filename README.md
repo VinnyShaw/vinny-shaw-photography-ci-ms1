@@ -138,12 +138,13 @@ After troubleshooting any CSS rules relating to the background-images, it was di
 
 This was changed to "scroll" and a media query for larger screens was written to allow the "fixed" rule and the therefore the parallax effect works on the larger screens.
 
-- ```.bg-img {
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+- ```
+  .bg-img {
+      background-position: center center;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   ```
 
 - `background-attachment: scroll;`

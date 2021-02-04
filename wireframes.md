@@ -10,7 +10,7 @@ Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development.
 
 ## [Click to visit live demo site](https://vinnyshaw.github.io/vinny-shaw-photography-ci-ms1/#home)
 
-## [Return to main README document](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md)
+## [Return to main README document](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md)
 
 ## Table of contents
 
@@ -20,9 +20,7 @@ Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development.
   - [Mobile](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#mobile)
   - [Desktop](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#desktop)
 
-- [Mockups](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#mockups)
-
-  - [Desktop Index](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#desktop)
+- [Mockup](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#mockups)
 
 - [Screenshots](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#screenshots)
 

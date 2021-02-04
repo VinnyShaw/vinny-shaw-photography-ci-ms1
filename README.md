@@ -10,6 +10,8 @@ A website is designed to be the online hub for the business **Vinny Shaw Photogr
 
 ## [Click to visit live demo site](https://vinnyshaw.github.io/vinny-shaw-photography-ci-ms1/#home)
 
+![Valid CSS](assets/img/vcss-blue.gif "Valid CSS")
+
 ## Table of contents
 
 - [User Experience](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#user-experience)
@@ -26,36 +28,7 @@ The aim of this website is to present the skills, services, work examples and co
 
 Simple, minimal font styles and text placement allow the user to easily navigate the content and information, while experiencing a full-page presentation of the owners work throughout.
 
-### Wireframes
-
-#### Mobile/Tablet/Desktop
-
-![Home Mockup](assets/wireframes/7-all-screens-wire.png)
-
-#### Mobile
-
-![Mobile](assets/wireframes/6-mobile-wire.png)
-
-#### Desktop
-
-![Desktop Home](assets/wireframes/1-desktop-index-wire.png)
-![Desktop About](assets/wireframes/2-desktop-about-wire.png)
-![Desktop Gallery](assets/wireframes/3-desktop-gallery-wire.png)
-![Desktop Service](assets/wireframes/4-desktop-services-wire.png)
-![Desktop Contact](assets/wireframes/5-desktop-contact-wire.png)
-
-#### Desktop Mockup
-
-![Home Mockup](assets/wireframes/8-desktop-index-mock.png)
-
-#### Design implementation alterations
-
-- **Home navigation** - button hidden on smaller screens for a cleaner look.
-- **Vinny Shaw** - title removed from About section for a cleaner look.
-- **Lets Talk** - contact link hidden on smaller screens for a cleaner look.
-- **Lets Talk** - form title hidden on smaller screens for a cleaner look.
-- **Gallery** - Bootstrap carousel used across all screen sizes and devices.
-- **Services** - Design changed from Bootstrap cards to a simpler image and title format.
+## [Click to visit Wireframes, mockups and screenshots](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md)
 
 ## Features
 
@@ -80,7 +53,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
   - The custom styling and responsive media queries are written in CSS.
 - [JQuery](https://jquery.com)
   - A script has been used to aid the minimal design by fading out the opacity of section text, to avoid any clashes with the navigation menu in the transparent header, as the user scrolls.
-  - [Script credit](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#credis)
+  - [Script credit](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#credits)
 - [Bootstrap V4.5.3](https://getbootstrap.com)
   - The site was developed using the **Bootstrap** CSS Framework for a mobile-first responsive design. This framework has been used, along with custom CSS, for the site layout, gallery carousel and contact form.
 - [Font Awesome](https://fontawesome.com)
@@ -92,23 +65,42 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 - [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html?gclid=CjwKCAiAsOmABhAwEiwAEBR0Zt4AD1ChwqUicjp6fg8v7YMdcTuY16QHG-_EMVapRGworCvLTsjM4RoChGYQAvD_BwE&mv=search&sdid=LZ32SYVR&ef_id=CjwKCAiAsOmABhAwEiwAEBR0Zt4AD1ChwqUicjp6fg8v7YMdcTuY16QHG-_EMVapRGworCvLTsjM4RoChGYQAvD_BwE:G:s&s_kwcid=AL!3085!3!441664377297!e!!g!!adobe%20photoshop!1422700211!58647953511)
   - Used for the cropping of site images and the favicon creation.
 - [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAiAsOmABhAwEiwAEBR0ZizFJhaYUCI4lrf8IEXtlweqEzcF8b4TbgglM3G-kwnDx5B75t70mxoCuXMQAvD_BwE)
-  - Wireframes and mockups.
+  - Wireframes and mockup creation.
 - [GitHub](https://github.com)
-  - Version control and cloud storage.
+  - Version control, cloud storage and deployment.
 - [GitPod](https://gitpod.io/workspaces/)
   - Cloud based coding of HTML, CSS and README creation.
 - [VS Code](https://code.visualstudio.com)
   - Offline coding of HTML, CSS and README creation.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+  - Chromes developer tools were used for testing the responsiveness of the sites layout and device emulation.
+- [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/)
+  - Firefoxes developer tools were used for testing the responsiveness of the sites layout and device emulation.
 
 ## Testing
 
-- [Google Chrome Dev Tools](.../)
-- [Firefox Developer Edition](.../)
-- [Lighthouse](.../)
-- [CSS Lint](.../)
-- [Am I Responsive](.../)
-- [W3C HTML Validator](.../)
-- [Jigsaw CSS Validator](.../)
+#### Online and automated
+
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  - The Lighthouse website scoring system was used to test and rate the websites performance.
+  - After each test, the appropriate suggested changes were carried out, giving the site a score of:
+    - Performance (83%)
+    - Accessability (100%)
+    - Best Practices (100%)
+    - SEO (100%).
+- [CSS Lint](http://csslint.net)
+  - Used to check the custom CSS file for errors.
+  - There are zero errors present.
+- [Am I Responsive](http://ami.responsivedesign.is)
+  - This site allows a live site to be viewed on several emulated devices at once to check responsiveness of layout.
+- [W3C HTML Validator](https://validator.w3.org)
+  - This site validates the HTML code to confirm it is up to standards.
+  - No errors were found in the custom HTML.
+- [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
+  - No errors were found in the custom CSS.
+  - ![Valid CSS](assets/img/vcss-blue.gif "Valid CSS")
+
+#### Manual
 
 1. Header Navigation:
 
@@ -136,11 +128,15 @@ Simple, minimal font styles and text placement allow the user to easily navigate
    4. Attempt to submit the form with all inputs valid and verify that a success message appears.
 
 5. JQuery:
-   1. Scroll through site and check that main section text areas fade out before header section.
+   1. Scroll through site and check that section text areas opacity fade out before header section.
 
 ## Bugs and fixes
 
-1. Known bug with iOS devices.
+On the initial live upload of the website to GitHub Pages, it was discovered that the background-images were not displaying properly on mobile devices. In particular iOS devices. On further research, it was discovered that this is a known bug with devices running iOS13 and above.
+
+After troubleshooting any CSS rules relating to the background-images, it was discovered that the the was caused by the "background-attachment" being set to "fixed".
+
+This was changed to "scroll" and a media query for larger screens was written to allow the "fixed" rule and the therefore the parallax effect works on the larger screens.
 
 - ```.bg-img {
     background-position: center center;

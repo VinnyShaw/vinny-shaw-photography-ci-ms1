@@ -402,7 +402,6 @@ footer i {
   }
 }
 
-/* todo: remove any repeated rules */
 /* * Mobile landscape - md */
 @media screen and (min-width: 812px) {
   .home {
@@ -419,7 +418,6 @@ footer i {
     font-size: 0.7rem;
     margin: 110px 20px 0 95px;
   }
-  /* todo: Fix image position or edit crops */
   /* * Gallery Carousel Images */
   .gallery-image-1 {
     background-image: url(../img/gallery/kirsten/kirsten-md.jpg);

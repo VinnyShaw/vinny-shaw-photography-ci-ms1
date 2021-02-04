@@ -51,6 +51,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 #### Design implementation alterations
 
 - **Home navigation** - button hidden on smaller screens for a cleaner look.
+- **Vinny Shaw** - title removed from About section for a cleaner look.
 - **Lets Talk** - contact link hidden on smaller screens for a cleaner look.
 - **Lets Talk** - form title hidden on smaller screens for a cleaner look.
 - **Gallery** - Bootstrap carousel used across all screen sizes and devices.
@@ -105,15 +106,36 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 - [Lighthouse](.../)
 - [CSS Lint](.../)
 - [Am I Responsive](.../)
-- [DiffChecker](.../)
 - [W3C HTML Validator](.../)
 - [Jigsaw CSS Validator](.../)
 
-1. Contact form:
+1. Header Navigation:
 
-2. Contact link in footer:
+   1. Click each section link and confirm site scrolls to correct area.
+   2. Click "V✵S" logo and confirm site returns to home section.
+   3. Attempt to submit the form with an invalid email address and verify that a relevant error message appears.
+   4. Attempt to submit the form with all inputs valid and verify that a success message appears.
 
-3. Social Media Links:
+2. Footer Links:
+
+   1. Click "Let's Talk!" contact link and confirm site scrolls to the "Contact" section.
+   2. Click each social media link and confirm the correct site is loaded into a new tab.
+
+3. Bootstrap Image Carousel:
+
+   1. Go to "Gallery" section.
+   2. Confirm that image carousel has loaded and begun displaying content.
+   3. Click the manual next ">" and previous "<" controls and confirm they correctly allow the user to navigate through the carousel.
+
+4. Contact form:
+
+   1. Go to the "Contact" section, by either header or footer link.
+   2. Attempt to submit the empty form and verify that an error message about the required fields appears.
+   3. Attempt to submit the form with an invalid email address and verify that a relevant error message appears.
+   4. Attempt to submit the form with all inputs valid and verify that a success message appears.
+
+5. JQuery:
+   1. Scroll through site and check that main section text areas fade out before header section.
 
 ## Deployment
 
@@ -133,5 +155,5 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 ### Acknowledgements
 
 - I would like to thank...
-  - Narender
-  - Igor
+  - Narender (Mentor)
+  - Igor (Igor)

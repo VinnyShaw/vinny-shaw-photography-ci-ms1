@@ -35,6 +35,10 @@ header {
   margin: 0;
   padding: 0;
 }
+/* todo: reset font awesome site-header position rule */
+/* .fixed-top {
+  
+} */
 
 /* *-------------------- Logo */
 .logo {
@@ -257,7 +261,6 @@ footer i {
 }
 
 /* *-------------------- Background Images and Media Queries */
-
 .bg-img {
   background-position: center center;
   background-attachment: scroll;
@@ -522,6 +525,10 @@ footer i {
 
 /* * Desktop - xl */
 @media screen and (min-width: 1200px) {
+  /* * This allows the parallax scrolling effect on larger screens */
+  .bg-img {
+    background-attachment: fixed;
+  }
   .about-text {
     font-size: 1.5rem;
     margin: 150px 20px 0 275px;

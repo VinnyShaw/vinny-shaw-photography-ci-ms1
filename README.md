@@ -102,7 +102,8 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 
 ## Testing
 
-- [Google Dev Tools](.../)
+- [Google Chrome Dev Tools](.../)
+- [Firefox Developer Edition](.../)
 - [Lighthouse](.../)
 - [CSS Lint](.../)
 - [Am I Responsive](.../)
@@ -136,6 +137,24 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 
 5. JQuery:
    1. Scroll through site and check that main section text areas fade out before header section.
+
+## Bugs and fixes
+
+1. Known bug with iOS devices.
+
+- ```.bg-img {
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ```
+
+- `background-attachment: scroll;`
+  - must be used on smaller screens for iOS devices.
+- `background-attachment: fixed;`
+
+  - is later placed in a CSS media query for larger screens to allow the desired parallax effect.
 
 ## Deployment
 

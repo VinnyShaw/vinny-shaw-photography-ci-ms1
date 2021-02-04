@@ -1,5 +1,4 @@
 ![Vinny Shaw Logo](assets/img/vs-favicon-white.png "Vinny Shaw Logo")
-![Vinny Shaw Logo](assets/img/vs-favicon-black.gif "Vinny Shaw Logo")
 
 # VINNY SHAW PHOTOGRAPHY
 

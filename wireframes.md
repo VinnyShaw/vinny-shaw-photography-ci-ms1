@@ -22,7 +22,7 @@ Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development.
 
 - [Mockups](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#mockups)
 
-  - [Desktop Index](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#mobile)
+  - [Desktop Index](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#desktop)
 
 - [Screenshots](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md#screenshots)
 
@@ -46,11 +46,11 @@ Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development.
 ![Desktop Service](assets/wireframes/4-desktop-services-wire.png)
 ![Desktop Contact](assets/wireframes/5-desktop-contact-wire.png)
 
-#### Desktop Mockup
+#### Mockups
 
 ![Home Mockup](assets/wireframes/8-desktop-index-mock.png)
 
-#### Design implementation alterations
+#### Design alterations
 
 - **Home navigation** - button hidden on smaller screens for a cleaner look.
 - **Vinny Shaw** - title removed from About section for a cleaner look.
@@ -59,4 +59,4 @@ Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development.
 - **Gallery** - Bootstrap carousel used across all screen sizes and devices.
 - **Services** - Design changed from Bootstrap cards to a simpler image and title format.
 
-## [Return to main README document](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md)
+## [Return to main README document](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md)

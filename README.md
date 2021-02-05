@@ -82,13 +82,26 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 #### Online and automated
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
   - The Lighthouse website scoring system was used to test and rate the websites performance.
+
+    - On initial testing:
+      - SEO score was effected by the absence of a Meta Description element in the Head of the HTML. - Fixed
+      - SEO score was effected by a "non legible font size" error due to some text with font-size under 12px. - Fixed
+      - Accessability score was effected by a lack of form input labels. - Fixed
+      - Accessability score was effected by Submit button contrast. - Fixed
+      - Best Practices score was effected by unused CSS. - Fixed
+      - Best Practices score was effected by incorrect Heading Hierarchy. - Fixed
+      - Best Practices score was effected by external links with a `target="_blank"` rule causing a security vulnerability. - Fixed by adding `rel="noopener"` to each external link.
+      - Performance score was raised by compressing all site images on tinypng.com
+
   - After each test, the appropriate suggested changes were carried out, giving the site a score of:
     - Performance (83%)
     - Accessability (100%)
     - Best Practices (100%)
     - SEO (100%).
     - [Full Results here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fvinnyshaw.github.io%2Fvinny-shaw-photography-ci-ms1%2F%23about&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#performance)
+
 - [CSS Lint](http://csslint.net)
   - Used to check the custom CSS file for errors.
   - There are zero errors present.
@@ -175,11 +188,16 @@ This was changed to "scroll" and a media query for larger screens was written to
 
 ## Credits
 
+### Code
+
+- [JQuery in footer](https://jquery.com)
+  - A script has been used to aid the minimal design by fading out the opacity of section text, as the user scrolls, to avoid any clashes with the navigation menu in the transparent header.
+  - The script is from this [Stackoverflow.com](https://stackoverflow.com/questions/42949293/fade-elements-as-they-reach-the-top-of-the-page) article.
+
 ### Content
 
 - All the text used throughout the website was written by myself, Vinny Shaw.
-- The script from this [Stackoverflow.com](https://stackoverflow.com/questions/42949293/fade-elements-as-they-reach-the-top-of-the-page) article was used to fade section text on scrolling.
-- The Code Institute sample [README](https://github.com/Code-Institute-Solutions/readme-template) as the basis this README file.
+- The Code Institute sample [README](https://github.com/Code-Institute-Solutions/readme-template) was used as the basis this README file.
 
 ### Media
 

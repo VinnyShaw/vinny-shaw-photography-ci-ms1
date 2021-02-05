@@ -88,6 +88,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
     - Accessability (100%)
     - Best Practices (100%)
     - SEO (100%).
+    - [Full Results here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fvinnyshaw.github.io%2Fvinny-shaw-photography-ci-ms1%2F%23about&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#performance)
 - [CSS Lint](http://csslint.net)
   - Used to check the custom CSS file for errors.
   - There are zero errors present.
@@ -96,6 +97,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 - [W3C HTML Validator](https://validator.w3.org)
   - This site validates the HTML code to confirm it is up to standards.
   - No errors were found in the custom HTML.
+  - [Results here](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2)
 - [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
   - No errors were found in the custom CSS.
   - ![Valid CSS](assets/img/vcss-blue.gif "Valid CSS")
@@ -132,7 +134,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 
 ## Bugs and fixes
 
-On the initial live upload of the website to GitHub Pages, it was discovered that the background-images were not displaying properly on mobile devices. In particular iOS devices. On further research, it was discovered that this is a known bug with devices running iOS13 and above.
+On the initial live upload of the website to GitHub Pages, it was discovered that the background-images were not displaying properly on mobile devices. In particular ios devices. On further research, it was discovered that this is a known bug with devices running ios13 and above.
 
 After troubleshooting any CSS rules relating to the background-images, it was discovered that the the was caused by the "background-attachment" being set to "fixed".
 
@@ -157,19 +159,34 @@ This was changed to "scroll" and a media query for larger screens was written to
 
 - GitHub Pages
 
+  The project was deployed to GitHub Pages
+
+  - Login to GitHub "VinnyShaw/vinny-shaw-photography-ci-ms1" repository.
+
+  - Click the repositories "Settings" option.
+
+  - Scroll down the Settings page until the "GitHub Pages" Section.
+
+  - Change "Source" from "None" to "Master Branch".
+
+  - The page will should reload.
+
+  - Scroll back down to the "GitHub Pages" section and use the "Your site is published at:" link to launch the site.
+
 ## Credits
 
 ### Content
 
 - All the text used throughout the website was written by myself, Vinny Shaw.
 - The script from this [Stackoverflow.com](https://stackoverflow.com/questions/42949293/fade-elements-as-they-reach-the-top-of-the-page) article was used to fade section text on scrolling.
+- The Code Institute sample [README](https://github.com/Code-Institute-Solutions/readme-template) as the basis this README file.
 
 ### Media
 
-- All the images used throughout the website were captured, edited and owned by myself, Vinny Shaw.
+- All the images used throughout the website were captured, created, edited, copyrighted and owned by myself, Vinny Shaw.
 
 ### Acknowledgements
 
 - I would like to thank...
-  - Narender (Mentor)
-  - Igor (Igor)
+  - Narender Singh (Mentor) for his time, patience, clear and informative mentoring sessions.
+  - Igor Basuga (Tutor) for his guidance in seeking a reason and fix for the issue regarding ios devices and parallax.

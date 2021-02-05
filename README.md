@@ -93,7 +93,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
       - Best Practices score was effected by unused CSS. - Fixed
       - Best Practices score was effected by incorrect Heading Hierarchy. - Fixed
       - Best Practices score was effected by external links with a `target="_blank"` rule causing a security vulnerability. - Fixed by adding `rel="noopener"` to each external link.
-      - Performance score was raised by compressing all site images on tinypng.com
+      - Performance score was raised by compressing all site images on - [TinyPNG](https://tinypng.com)
 
   - After each test, the appropriate suggested changes were carried out, giving the site a score of:
     - Performance (83%)

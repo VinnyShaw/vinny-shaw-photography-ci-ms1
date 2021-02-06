@@ -28,6 +28,16 @@ The aim of this website is to present the skills, services, work examples and co
 
 Simple, minimal font styles and text placement allow the user to easily navigate the content and information, while experiencing a full-page presentation of the owners work throughout.
 
+- A user may want to learn about the owner and their work by reading short a biography.
+
+- A user may want to see what services the owner offers.
+
+- A user may want to see examples of the owners skills on offer, to see if they suit their requirements.
+
+- A user may want to easily contact the owner if they would like to hire them for their services or ask for additional information.
+
+- A user may want to connect to the owner via social media or to follow their accounts.
+
 ## [Click to visit Wireframes, mockups and screenshots](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/wireframes.md)
 
 ## Features

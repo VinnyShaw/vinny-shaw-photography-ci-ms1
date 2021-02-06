@@ -102,6 +102,12 @@ Simple, minimal font styles and text placement allow the user to easily navigate
     - SEO (100%).
     - [Full Results here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fvinnyshaw.github.io%2Fvinny-shaw-photography-ci-ms1%2F%23about&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#performance)
 
+- [Wave](https://wave.webaim.org/) Web Accessibility Valuation Tool
+
+  - Used to check accessibility of the site and its features.
+  - Initial test showed COntrast Errors regarding text - Fixed by altering background-color and text color on flagged elements.
+  - [Full Results here](https://wave.webaim.org/report#/https://vinnyshaw.github.io/vinny-shaw-photography-ci-ms1/#home)
+
 - [CSS Lint](http://csslint.net)
   - Used to check the custom CSS file for errors.
   - There are zero errors present.

@@ -277,7 +277,7 @@ footer i {
     background-image: url(../img/about/vinny-shaw-bg-xs.jpg);
   }
   .services {
-    background-image: url(../img/contact/trees-bg-xs.jpg);
+    background-image: url(../img/services/wet-rocks-bg-xs.jpg);
   }
   .contact {
     background-image: url(../img/contact/trees-bg-xs.jpg);
@@ -319,7 +319,7 @@ footer i {
   }
   /* * /Gallery Carousel Images */
   .services {
-    background-image: url(../img/contact/trees-bg-sm.jpg);
+    background-image: url(../img/services/wet-rocks-bg-sm.jpg);
   }
   .services-container {
     padding: 0 20px;
@@ -379,7 +379,7 @@ footer i {
   }
   /* * /Gallery Carousel Images */
   .services {
-    background-image: url(../img/contact/trees-bg-md.jpg);
+    background-image: url(../img/services/wet-rocks-bg-md.jpg);
   }
   .services-container {
     padding: 0 20px;
@@ -442,7 +442,7 @@ footer i {
   }
   /* * /Gallery Carousel Images */
   .services {
-    background-image: url(../img/contact/trees-bg-md.jpg);
+    background-image: url(../img/services/wet-rocks-bg-md.jpg);
   }
   .services-container {
     height: 70vh;
@@ -500,7 +500,7 @@ footer i {
   }
   /* * /Gallery Carousel Images */
   .services {
-    background-image: url(../img/contact/trees-bg-lg.jpg);
+    background-image: url(../img/services/wet-rocks-bg-lg.jpg);
   }
   .service-title {
     font-size: 3rem;

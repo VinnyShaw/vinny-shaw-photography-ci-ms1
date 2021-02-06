@@ -108,6 +108,12 @@ Simple, minimal font styles and text placement allow the user to easily navigate
   - Initial test showed COntrast Errors regarding text - Fixed by altering background-color and text color on flagged elements.
   - [Full Results here](https://wave.webaim.org/report#/https://vinnyshaw.github.io/vinny-shaw-photography-ci-ms1/#home)
 
+- [Google](https://developers.google.com/speed/pagespeed/insights/) Page Speed Insights
+
+  - Testing for page lading speeds.
+  - [Mobile Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fvinnyshaw.github.io%2Fvinny-shaw-photography-ci-ms1%2F%23home&tab=mobile)
+  - [Desktop Results](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fvinnyshaw.github.io%2Fvinny-shaw-photography-ci-ms1%2F%23home&tab=desktop)
+
 - [CSS Lint](http://csslint.net)
   - Used to check the custom CSS file for errors.
   - There are zero errors present.

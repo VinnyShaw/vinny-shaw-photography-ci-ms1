@@ -61,6 +61,11 @@ header {
   margin: 0;
 }
 
+/*  * Removes right-margin of last child of Social Icons in Footer */
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
 /* *-------------------- Sections */
 
 .section-text {
@@ -87,9 +92,9 @@ header {
 }
 
 /* *-------------------- Home Section */
-.landing-title a,
-h1,
-h2 {
+.home-text,
+.home-text-title,
+.home-text-sub-title {
   font-weight: 300;
   text-decoration: none;
   color: #fafafa;
@@ -99,11 +104,16 @@ h2 {
   -o-transition: color 0.35s ease-in-out;
 }
 
-.landing-title h1:hover {
-  color: #669999;
+.home-text-title {
+  font-size: 2.5rem;
 }
 
-.landing-title h2:hover {
+.home-text-sub-title {
+  font-size: 2rem;
+}
+
+.home-text-title:hover,
+.home-text-sub-title:hover {
   color: #669999;
 }
 

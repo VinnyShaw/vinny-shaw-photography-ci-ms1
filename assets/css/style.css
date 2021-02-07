@@ -262,7 +262,7 @@ footer i {
 /* *-------------------- Background Images and Media Queries */
 
 /* * Background Image Positioning */
-.bg-img {
+.background-image {
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;

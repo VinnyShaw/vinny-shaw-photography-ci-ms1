@@ -114,7 +114,7 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 - [Wave](https://wave.webaim.org/) Web Accessibility Valuation Tool
 
   - Used to check accessibility of the site and its features.
-  - Initial test showed COntrast Errors regarding text - Fixed by altering background-color and text color on flagged elements.
+  - Initial test showed Contrast Errors regarding text - Fixed by altering background-color and text color on flagged elements.
   - [Full Results here](https://wave.webaim.org/report#/https://vinnyshaw.github.io/vinny-shaw-photography-ci-ms1/#home)
 
 - [Google](https://developers.google.com/speed/pagespeed/insights/) Page Speed Insights

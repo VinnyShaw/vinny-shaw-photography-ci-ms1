@@ -15,7 +15,6 @@ A website is designed to be the online hub for the business **Vinny Shaw Photogr
 ## Table of contents
 
 - [User Experience](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#user-experience)
-
 - [Features](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#features)
 - [Technologies Used](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#technologies-used)
 - [Testing](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#testing)
@@ -196,7 +195,7 @@ This was changed to "scroll" and a media query for larger screens was written to
 
   The project was deployed to GitHub Pages
 
-  - Login to GitHub "VinnyShaw/vinny-shaw-photography-ci-ms1" repository.
+  - Log in to GitHub "VinnyShaw/vinny-shaw-photography-ci-ms1" repository.
 
   - Click the repositories "Settings" option.
 
@@ -207,6 +206,40 @@ This was changed to "scroll" and a media query for larger screens was written to
   - The page will should reload.
 
   - Scroll back down to the "GitHub Pages" section and use the "Your site is published at:" link to launch the site.
+
+- Forking the GitHub Repository
+
+  The GitHub Repository can be Forked, which makes a copy of the original. Changes can be made to this Fork without affecting the original repository
+
+  - Log in to GitHub
+
+  - Visit the "VinnyShaw/vinny-shaw-photography-ci-ms1" repository.
+
+  - Click the repositories "Fork" option.
+
+  There will now be a copy of the original repository in your GitHub account.
+
+- Making a Local Clone of the Repository is possible in several ways
+
+  - Log in to GitHub "VinnyShaw/vinny-shaw-photography-ci-ms1" repository.
+
+  - Click the repositories "Code" option.
+
+  - Either download a Zip of the repository
+
+    or
+
+  - Choose the "Open with GitHub Desktop"
+
+    or
+
+- Copy the repository HTTPS link: https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1.git
+
+- Open Git Bash.
+
+- Set the location of the working directory where you want the cloned directory to be made.
+
+- Type git clone, and then paste the HTTPS URL and press Enter to complete.
 
 ## Credits
 

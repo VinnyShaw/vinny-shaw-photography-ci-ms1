@@ -57,4 +57,22 @@ Welcome to my Code Institute MS1 Project:<br>User Centric Frontend Development.
 - **Gallery** - Bootstrap carousel used across all screen sizes and devices.
 - **Services** - Design changed from Bootstrap cards to a simpler image and title format.
 
+#### Screenshots
+
+iPhone 6 Portrait
+
+![Index](assets/screenshots/iphone6-index-screenshot.PNG)
+![About](assets/screenshots/iphone6-about-screenshot.PNG)
+![Gallery](assets/screenshots/iphone6-gallery-screenshot.PNG)
+![Services](assets/screenshots/iphone6-services-screenshot.PNG)
+![Contact](assets/screenshots/iphone6-contact-screenshot.PNG)
+
+iPhone 6 Landscape
+
+![Index](assets/screenshots/iphone6-index-landscape-screenshot.PNG)
+![About](assets/screenshots/iphone6-about-landscape-screenshot.PNG)
+![Gallery](assets/screenshots/iphone6-gallery-landscape-screenshot.PNG)
+![Services](assets/screenshots/iphone6-services-landscape-screenshot.PNG)
+![Contact](assets/screenshots/iphone6-contact-landscape-screenshot.PNG)
+
 ## [Return to main README document](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md)

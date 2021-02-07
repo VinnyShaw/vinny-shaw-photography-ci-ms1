@@ -272,7 +272,7 @@ footer i {
 /* *-------------------- Background Images and Media Queries */
 
 /* * Background Image Positioning */
-.background-image {
+.section-background-image {
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -540,7 +540,7 @@ footer i {
 /* * Desktop - xl */
 @media screen and (min-width: 1200px) {
   /* * This allows the parallax scrolling effect on larger screens */
-  .bg-img {
+  .section-background-image {
     background-attachment: fixed;
   }
   .about-text {

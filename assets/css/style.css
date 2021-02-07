@@ -37,6 +37,7 @@ header {
   padding: 0;
 }
 
+/* * Bootstrap rule to keep header element at top of viewport */
 .fixed-top {
   position: fixed;
 }
@@ -58,11 +59,6 @@ header {
 
 .nav-link a {
   margin: 0;
-}
-
-/* ? Is this needed? */
-.list-inline-item:not(:last-child) {
-  margin-right: 0;
 }
 
 /* *-------------------- Sections */
@@ -127,6 +123,7 @@ h2 {
   height: 100vh;
 }
 
+/* * Gallery Carousel Images */
 .gallery-image-1 {
   background-image: url(../img/gallery/kirsten/kirsten-xs.jpg);
 }
@@ -145,6 +142,7 @@ h2 {
 .gallery-image-6 {
   background-image: url(../img/gallery/snowy-horizon/snowy-horizon-xs.jpg);
 }
+/* * /Gallery Carousel Images */
 
 /* *-------------------- Services Section */
 
@@ -226,6 +224,7 @@ h2 {
   text-decoration: none;
 }
 
+/* * Font Awesome Icon Styling */
 footer i {
   color: #fafafa;
   margin: 0 7px;
@@ -261,6 +260,8 @@ footer i {
 }
 
 /* *-------------------- Background Images and Media Queries */
+
+/* * Background Image Positioning */
 .bg-img {
   background-position: center center;
   background-attachment: scroll;
@@ -268,6 +269,8 @@ footer i {
   background-size: cover;
   background-color: #4d4d4d;
 }
+
+/* * Media Queries to Set Background Images and alternative CSS Rules */
 
 /* * Mobile - xs */
 @media screen and (max-width: 575.98px) {

@@ -61,7 +61,8 @@ Simple, minimal font styles and text placement allow the user to easily navigate
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
   - The custom styling and responsive media queries are written in CSS.
 - [JQuery](https://jquery.com)
-  - A script has been used to aid the minimal design by fading out the opacity of section text, to avoid any clashes with the navigation menu in the transparent header, as the user scrolls.
+  - A script has been used to aid the minimal design by fading out the opacity of section text, as the user scrolls, to avoid any clashes with the navigation menu in the transparent header.
+  - This is achieved by assigning a class to any section content text. The distance from elements using the class, to the top of the viewport is then calculated. As each element reaches the assigned threshold, it's opacity will be faded out before it reaches the Header element.
   - [Script credit](https://github.com/VinnyShaw/vinny-shaw-photography-ci-ms1/blob/master/README.md#credits)
 - [Bootstrap V4.5.3](https://getbootstrap.com)
   - The site was developed using the **Bootstrap** CSS Framework for a mobile-first responsive design. This framework has been used, along with custom CSS, for the site layout, gallery carousel and contact form.
